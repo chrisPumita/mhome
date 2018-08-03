@@ -34,7 +34,7 @@
           <div id="nosotros" class="txtAbout">
             <h3 class="txtDer">¿QUIÈNES SOMOS?</h3>
             <p>
-              MATHEWS dedicada ala fabricación de blancos en general, desde 1990 tenemos 27 años de experiencia en el mercado brindando la máxima calidad en productos para el área de blancos como son sábanas, fundas, almohadas, protectores de colchón, colchas, toallas, etc.
+              MATHEWS dedicada a la fabricación de blancos en general, desde 1990 tenemos 27 años de experiencia en el mercado brindando la máxima calidad en productos para el área de blancos como son sábanas, fundas, almohadas, protectores de colchón, colchas, toallas, etc.
               <br><br>
               Siendo fabricantes y distribuidores, proveemos nuestro servicio a prestigiosos hoteles, hospitales y restaurantes, cubriendo así una demanda de nuestros productos a más de 500 clientes tanto en la República Mexicana como en el extranjero.
               <br><br>
@@ -43,6 +43,58 @@
           </div>
           <div class="valoresAbout">
             <div class="boxValor">
+
+              <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="contv">
+                  <div class="txtValor1">
+                    Ser una empresa de clase mundial que compita en términos de calidad y eficiencia con cualquier otra empresa del mundo.<br>
+                    Se utilizan todos los instrumentos modernos de administración, tecnología y procesos, que cumple adecuadamente los requisitos de calidad.
+                  </div>
+                  <div class="txtValor2">
+                    <h2>VISIÓN</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="contv">
+                  <div class="txtValor1">
+                    Somos un equipo especializado y capacitado para proponer soluciones de alta calidad a las necesidades de la industria hotelera,
+                    estableciendo relaciones cordiales de largo plazo, de confianza y de mutuo beneficio.
+                  </div>
+                  <div class="txtValor2">
+                    <h2>MISIÓN</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="contv">
+                  <div class="txtValor1">
+                    <ul>
+                      <li>Honestidad</li>
+                      <li>Responsabilidad</li>
+                      <li>Compromiso</li>
+                    </ul>
+                  </div>
+                  <div class="txtValor2">
+                    <h2>VALORES</h2>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+              <br>
+
+              <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+
+              <!--
               <div class="txtValor1">
                 Ser una empresa de clase mundial que compita en términos de calidad y eficiencia con cualquier otra empresa del mundo.
                 <br><br>
@@ -51,6 +103,8 @@
               <div class="txtValor2">
                 <h2>VISION</h2>
               </div>
+            -->
+
             </div>
           </div>
         </div>
@@ -193,6 +247,27 @@
     				  </div>
     				</div><!--TERMINA PRODUCTO-->
             <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
+              <div class="card">
+                <div class="imgBx bProd">
+                  <img class="imagenAjustada" src="images/productos/protector.jpg">
+                  <h1 class="txtPRODUCTO">PROTECTOR DE COLCHÓN</h1>
+                </div>
+                <div class="details">
+                  <div class="imgProdcutoBOX">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.</p>
+                      <div class="cuadroDetails">
+
+                      </div>
+                  </div>
+                  <div class="imgBoxProducto">
+                    <img class="imagenAjustada" src="images/productos/protector.jpg">
+                  </div>
+                </div>
+              </div>
+            </div><!--TERMINA PRODUCTO-->
+            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
     				  <div class="card">
     				    <div class="imgBx bProd">
                   <img class="imagenAjustada" src="images/productos/cobertores.jpg">
@@ -269,6 +344,27 @@
                 </div>
               </div>
             </div><!--TERMINA PRODUCTO-->
+            <div class="filterDiv rBanio"><!--INICIA PRODUCTO-->
+              <div class="card">
+                <div class="imgBx bProd">
+                  <img class="imagenAjustada" src="images/productos/bata1.jpg">
+                  <h1 class="txtPRODUCTO">BATA DE BAÑO</h1>
+                </div>
+                <div class="details">
+                  <div class="imgProdcutoBOX">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.</p>
+                      <div class="cuadroDetails">
+
+                      </div>
+                  </div>
+                  <div class="imgBoxProducto">
+                    <img class="imagenAjustada" src="images/productos/bata1.jpg">
+                  </div>
+                </div>
+              </div>
+            </div><!--TERMINA PRODUCTO-->
 <!--TERMINA SECCION DE ROPA DE BAÑO-->
             <div class="filterDiv rMesa"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
@@ -299,7 +395,7 @@
                       </div>
                   </div>
                   <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/toalla.jpg">
+                    <img class="imagenAjustada" src="images/productos/mantel.jpg">
                   </div>
                 </div>
               </div>
@@ -335,6 +431,27 @@
                   </div>
                   <div class="imgBoxProducto">
                     <img class="imagenAjustada" src="images/productos/cojin.jpg">
+                  </div>
+                </div>
+              </div>
+            </div><!--TERMINA PRODUCTO-->
+            <div class="filterDiv rDecora"><!--INICIA PRODUCTO-->
+              <div class="card">
+                <div class="imgBx bProd">
+                  <img class="imagenAjustada" src="images/productos/cortinas.jpg">
+                  <h1 class="txtPRODUCTO">CORTINAS</h1>
+                </div>
+                <div class="details">
+                  <div class="imgProdcutoBOX">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.</p>
+                      <div class="cuadroDetails">
+
+                      </div>
+                  </div>
+                  <div class="imgBoxProducto">
+                    <img class="imagenAjustada" src="images/productos/cortinas.jpg">
                   </div>
                 </div>
               </div>
@@ -444,6 +561,29 @@
         document.documentElement.scrollTop = 0;
     }
     </script>
+
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
   <link rel="stylesheet" href="style/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
