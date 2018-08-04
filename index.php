@@ -3,6 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>MATHEWS HOME</title>
+<style media="screen">
+.animatedLogo {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+@keyframes zoomInDown {
+  0% {
+      opacity: 0;
+      transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+      animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+      opacity: 1;
+      transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+.zoomInDown {
+  animation-name: zoomInDown;
+}
+</style>
+
   </head>
   <a href="#">
     <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
@@ -10,21 +34,22 @@
   <body id="mhome"data-spy="scroll" data-target=".navbar" data-offset="60">
     <header id="header">
       <div class="contHeader colorSemiDegradado">
-        <div class="contMenus">
-          <div id="navbar1">
-            <a href="#">INICIO</a>
-            <a href="#nosotros">¿QUIÉNES SOMOS?</a>
-            <div class="contLogo">
-              <div class=" circulo"></div>
-              <img class="logoHeader" src="images/Logo_mathews.png" alt="Logo de Mathews Home">
-            </div>
-            <a href="#PRODUCTS">PRODUCTOS</a>
-            <a href="#contact">CONTACTO</a>
+      <div class="contMenus">
+        <div id="navbar1">
+          <div class="contLogo">
+            <img class="logoHeader animatedLogo zoomInDown" src="images/Logo_mathews.png" alt="Logo de Mathews Home">
           </div>
+          <p class="pMenu">MENU</p>
+          <a href="#nosotros">¿QUIÉNES SOMOS?</a>
+          <a href="#PRODUCTS">PRODUCTOS</a>
+          <a href="#contact">CONTACTO</a>
         </div>
-        <h1 class="titleHome">TU TRANQUILIDAD</h1>
+        <div class=" circulo"></div>
+      </div>
+
+        <h1 class="titleHome">CALIDAD Y CONFIANZA</h1>
         <h2 class="SubTitleHome">es nuestro compromiso</h2>
-        <button class="btnHome">CONTACTO</button>
+        <a href="#contact"><button class="btnHome">CONTACTO</button></a>
       </div>
     </header>
     <section id="section">
@@ -84,27 +109,13 @@
                   </div>
                 </div>
               </div>
-
               </div>
               <br>
-
               <div style="text-align:center">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
               </div>
-
-              <!--
-              <div class="txtValor1">
-                Ser una empresa de clase mundial que compita en términos de calidad y eficiencia con cualquier otra empresa del mundo.
-                <br><br>
-                Se utilizan todos los instrumentos modernos de administración, tecnología y procesos, que cumple adecuadamente los requisitos de calidad.
-              </div>
-              <div class="txtValor2">
-                <h2>VISION</h2>
-              </div>
-            -->
-
             </div>
           </div>
         </div>
@@ -163,243 +174,170 @@
         <div id="sectores" class="sectors">
     			<div id="myBtnFilContainer">
     			  <button class="fbtn active" onclick="filterSelection('all')"> VER TODO</button>
+            <button class="fbtn" onclick="filterSelection('rCama')">ROPA DE CAMA</button>
     			  <button class="fbtn" onclick="filterSelection('rBanio')">ROPA DE BAÑO</button>
     			  <button class="fbtn" onclick="filterSelection('rMesa')">MESA / MANTELERIA</button>
-    			  <button class="fbtn" onclick="filterSelection('rCama')">ROPA DE CAMA</button>
     			  <button class="fbtn" onclick="filterSelection('rDecora')">DECORACIÓN</button>
     			</div>
 
     			<div class="container"><!--INICIA CONTENEDOR-->
-    				<div class="filterDiv rCama"><!--INICIA TITULO PRODUCTO-->
-    				  <div class="card">
-    				    <div class="imgBx">
-                  <img class="imagenAjustada" src="images/productos/ropaCama2.jpg" height="181" width="335">
-                  <div class="tittleProducto">
-                      <h1 class="txtTPRo">ROPA DE CAMA</h1>
-                      <p class="txtTProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-                </div>
-    				    <div class="details opcT"><h1 class="txtTPRo">ROPA DE CAMA</h1>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-    				  </div>
-    				</div><!--TERMINA TITITULO PRODUCTO-->
-    				<div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-    				  <div class="card">
-    				    <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/almohada.jpg">
-                  <h1 class="txtPRODUCTO">ALMOHADAS</h1>
-                </div>
-    				    <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
 
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/almohada.jpg">
-                  </div>
-                </div>
-    				  </div>
-    				</div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/sabana.jpg">
-                  <h1 class="txtPRODUCTO">SABANAS</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/sabana.jpg">
-                  </div>
-                </div>
-              </div>
-            </div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-    				  <div class="card">
-    				    <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/fundas.jpg">
-                  <h1 class="txtPRODUCTO">FUNDAS</h1>
-                </div>
-    				    <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/fundas.jpg">
-                  </div>
-                </div>
-    				  </div>
-    				</div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/protector.jpg">
-                  <h1 class="txtPRODUCTO">PROTECTOR DE COLCHÓN</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/protector.jpg">
-                  </div>
-                </div>
-              </div>
-            </div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-    				  <div class="card">
-    				    <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/cobertores.jpg">
-                  <h1 class="txtPRODUCTO">COBERTORES</h1>
-                </div>
-    				    <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/cobertores.jpg">
-                  </div>
-                </div>
-    				  </div>
-    				</div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA PRODUCTO-->
-    				  <div class="card">
-    				    <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/edredones.jpg">
-                  <h1 class="txtPRODUCTO">EDREDONES</h1>
-                </div>
-    				    <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/edredones.jpg">
-                  </div>
-                </div>
-    				  </div>
-    				</div><!--TERMINA PRODUCTO-->
-            <!--TERMINA SECCION DE ROPA DE CAMA-->
             <div class="filterDiv rBanio"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
-                  <img class="imagenAjustada" src="images/productos/ropaBanio.jpg" height="181" width="335">
+                  <img class="imagenAjustada" src="images/productos/ropaBanio.jpg">
                   <div class="tittleProducto">
                       <h1 class="txtTPRo">ROPA DE BAÑO</h1>
-                      <p class="txtTProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE BAÑO</h1>
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rBanio"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
+            <div class="filterDiv rBanio"><!--INICIA TOALLAS-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">TOALLAS</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
                   <img class="imagenAjustada" src="images/productos/toalla.jpg">
-                  <h1 class="txtPRODUCTO">TOALLAS</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/toalla.jpg">
-                  </div>
                 </div>
               </div>
-            </div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rBanio"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
+            </div><!--TERMINA TOALLAS-->
+            <div class="filterDiv rBanio"><!--INICIA BATA DE BAÑO-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">BATA DE BAÑO</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
                   <img class="imagenAjustada" src="images/productos/bata1.jpg">
-                  <h1 class="txtPRODUCTO">BATA DE BAÑO</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/bata1.jpg">
-                  </div>
                 </div>
               </div>
+            </div><!--TERMINA BATA DE BAÑO-->
+            <!--TERMINA SECCION DE ROPA DE BAÑO-->
+            <div class="filterDiv rCama"><!--INICIA TITULO PRODUCTO-->
+              <div class="card">
+                <div class="imgBx">
+                  <img class="imagenAjustada" src="images/productos/ropaCama2.jpg">
+                  <div class="tittleProducto">
+                      <h1 class="txtTPRo">ROPA DE CAMA</h1>
+                  </div>
+                </div>
+                <div class="details opcT"><h1 class="txtTPRo">ROPA DE CAMA</h1>
+                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+              </div>
+            </div><!--TERMINA TITITULO PRODUCTO-->
+            <div class="filterDiv rCama"><!--INICIA ALMOHADAS-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">ALMOHADAS</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/almohada.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA ALMOHADAS-->
+            <div class="filterDiv rCama"><!--INICIA SABANAS-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">SABANAS</h1>
+                    <div class="cuadroDetails">
+                    <!--COMIENZA SABANAS ESPECIFICO HILOS-->
+                      <!--TERMINA PRODUCTO ESPECIFICO HILOS-->
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/sabana.jpg">
+                </div>
+              </div>
+
             </div><!--TERMINA PRODUCTO-->
-<!--TERMINA SECCION DE ROPA DE BAÑO-->
+            <div class="filterDiv rCama"><!--INICIA FUNDAS-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">FUNDAS</h1>
+                    <div class="cuadroDetails">
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/fundas.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA FUNDAS-->
+            <div class="filterDiv rCama"><!--INICIA PROTECTOR DE CAMA-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">PROTECTOR DE CAMA</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/protector.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA PROTECTOR DE CAMA-->
+            <div class="filterDiv rCama"><!--INICIA COBERTORES-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">COBERTORES</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/cobertores.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA COBERTORES-->
+            <div class="filterDiv rCama"><!--INICIA EDREDONES-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">EDREDONES</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/edredones.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA EDREDONES-->
+            <!--TERMINA SECCION DE ROPA DE CAMA-->
             <div class="filterDiv rMesa"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/rMesa.jpg" height="181" width="335">
                   <div class="tittleProducto">
                       <h1 class="txtTPRo">MESA Y MANTELERIA</h1>
-                      <p class="txtTProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">MESA Y MANTELERIA</h1>
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rMesa"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
-                  <img class="imagenAjustada" src="images/productos/mantel.jpg">
-                  <h1 class="txtPRODUCTO">MANTELERIA</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
+            <div class="filterDiv rMesa"><!--INICIA MANTELERIA-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">MANTELERIA</h1>
+                    <div class="cuadroDetails">
 
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/mantel.jpg">
-                  </div>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/mantel.jpg">
                 </div>
               </div>
-            </div><!--TERMINA PRODUCTO-->
+            </div><!--TERMINA MANTELERIA-->
             <!--TERMINA SECCION DE MESA UTILERIA-->
             <div class="filterDiv rDecora"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
@@ -407,63 +345,49 @@
                   <img class="imagenAjustada" src="images/productos/rDecora.jpg" height="181" width="335">
                   <div class="tittleProducto">
                       <h1 class="txtTPRo">DECORACION</h1>
-                      <p class="txtTProd">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">DECORACION</h1>
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rDecora"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
+            <div class="filterDiv rDecora"><!--INICIA COJINES-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">COJINES</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
                   <img class="imagenAjustada" src="images/productos/cojin.jpg">
-                  <h1 class="txtPRODUCTO">COJINES</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/cojin.jpg">
-                  </div>
                 </div>
               </div>
-            </div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv rDecora"><!--INICIA PRODUCTO-->
-              <div class="card">
-                <div class="imgBx bProd">
+            </div><!--TERMINA COJINES-->
+            <div class="filterDiv rDecora"><!--INICIA CORTINAS-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">CORTINAS</h1>
+                    <div class="cuadroDetails">
+
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
                   <img class="imagenAjustada" src="images/productos/cortinas.jpg">
-                  <h1 class="txtPRODUCTO">CORTINAS</h1>
-                </div>
-                <div class="details">
-                  <div class="imgProdcutoBOX">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.</p>
-                      <div class="cuadroDetails">
-
-                      </div>
-                  </div>
-                  <div class="imgBoxProducto">
-                    <img class="imagenAjustada" src="images/productos/cortinas.jpg">
-                  </div>
                 </div>
               </div>
-            </div><!--TERMINA PRODUCTO-->
+            </div><!--TERMINA CORTINAS-->
 
     			</div> <!--TERMINA CONTENEDOR-->
     		</div>
+      </div>
+      <div class="cuentas">
+        <div class="contTGralProd">
+          <h1 class="tProdGral">NUESTROS CLIENTES</h1>
+        </div>
         <div class="lineDivisor">
           <img class="" src="images/line.png">
         </div>
-      </div>
-      <div class="cuentas">
         <img class="" src="images/cuentas.png">
       </div>
       <div class="contacto">
@@ -526,15 +450,16 @@
       <div class="footer">
         <div class="contLegales">
           <div class="logoF">
-            <img class="logoFooter" src="images/Logo_mathews.png" alt="Logo de Mathews Home">
+            <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home">
           </div>
           <div class="logosRedes">
             <img class="logoRed" src="images/facebook.png" alt="Logo de facebook">
-            <img class="logoRed" src="images/twitter.png" alt="Logo de facebook">
-            <img class="logoRed" src="images/whatsapp.png" alt="Logo de facebook">
+            <img class="logoRed" src="images/twitter.png" alt="Logo de twitter">
+            <img class="logoRed" src="images/whatsapp.png" alt="Logo de whatsapp">
+            <img class="logoRed" src="images/linkedin.png" alt="Logo de linkedin">
           </div>
           <div class="ContPrivacidad">
-            <p class="txtP">Políticas de Privacidad</p>
+            <p class="txtP">Aviso de Privacidad</p>
             <p class="txtP">© 2018 Mathews Home. Derechos Reservados.</p>
           </div>
 
@@ -576,10 +501,10 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" activeDot", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].className += " activeDot";
     setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
