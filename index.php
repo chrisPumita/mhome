@@ -182,7 +182,7 @@
 
     			<div class="container"><!--INICIA CONTENEDOR-->
 
-            <div class="filterDiv rBanio"><!--INICIA TITULO PRODUCTO-->
+            <div class="filterDiv rBanio tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/ropaBanio.jpg">
@@ -199,7 +199,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">TOALLAS</h1>
                     <div class="cuadroDetails">
-
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -212,7 +212,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">BATA DE BAÑO</h1>
                     <div class="cuadroDetails">
-
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -221,7 +221,7 @@
               </div>
             </div><!--TERMINA BATA DE BAÑO-->
             <!--TERMINA SECCION DE ROPA DE BAÑO-->
-            <div class="filterDiv rCama"><!--INICIA TITULO PRODUCTO-->
+            <div class="filterDiv rCama tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/ropaCama2.jpg">
@@ -238,7 +238,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">ALMOHADAS</h1>
                     <div class="cuadroDetails">
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -252,6 +252,7 @@
                   <h1 class="txtTProducto">SABANAS</h1>
                     <div class="cuadroDetails">
                     <!--COMIENZA SABANAS ESPECIFICO HILOS-->
+                    SABANA PLANA O DE CAJON INDIVIDUAL 50% POLIESTER 50% ALGODÓN COLOR BLANCO
                       <!--TERMINA PRODUCTO ESPECIFICO HILOS-->
                     </div>
                 </div>
@@ -259,13 +260,128 @@
                   <img class="imagenAjustada" src="images/productos/sabana.jpg">
                 </div>
               </div>
-
             </div><!--TERMINA PRODUCTO-->
+            <div class="filterDiv accor rCama"><!--INICIA FUNDAS-->
+              <div class="details">
+                <!--     AGREGAR ACORDION       -->
+                <section class="ac-container">
+                  <div>
+                <!--      <input id="ac-1" name="accordion-1" type="radio" checked="">-->
+                      <input id="ac-1" name="accordion-1" type="radio">
+                      <label for="ac-1"><h1 class="txtTProducto">SABANAS PLANAS O DE CAJON</h1></label>
+                      <article class="ac-small tableP">
+                          <table>
+                            <tr>
+                              <th></th>
+                              <th>INDIVIDUAL <br>1.80 X 2.80 MTS</th>
+                              <th>MATRIMONIAL <br>2.00 X 2.80 MTS </th>
+                              <th>QUEEN SIZE <br>2.00 X 2.80 MTS</th>
+                              <th>KING SIZE <br>2.80 X 2.80 MTS </th>
+                              <th>KING SIZE <br>3.00 X 2.80 MTS </th>
+                              <th>KING SIZE <br>3.200 X 2.80 MTS </th>
+                            </tr>
+                            <tr>
+                              <td>150 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>180 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>200 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>300 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                          </table>
+                      </article>
+                    </div>
+                  <div>
+                  <input id="ac-2" name="accordion-1" type="radio">
+                  <label for="ac-2"><h1 class="txtTProducto">SABANAS PLANAS O DE CAJON CON BIES Y PIOLA</h1></label>
+                  <article class="ac-medium tableP">
+                    <table>
+                      <tr>
+                        <th></th>
+                        <th>INDIVIDUAL <br>1.80 X 2.80 MTS</th>
+                        <th>MATRIMONIAL <br>2.00 X 2.80 MTS </th>
+                        <th>QUEEN SIZE <br>2.00 X 2.80 MTS</th>
+                        <th>KING SIZE <br>2.80 X 2.80 MTS </th>
+                        <th>KING SIZE <br>3.00 X 2.80 MTS </th>
+                        <th>KING SIZE <br>3.200 X 2.80 MTS </th>
+                      </tr>
+                      <tr>
+                        <td>150 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>180 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>200 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>300 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                    </table>
+                  </article>
+                  </div>
+                </section>
+                <!--     TERMINA ACORDION       -->
+              </div>
+            </div><!--TERMINA FUNDAS-->
             <div class="filterDiv rCama"><!--INICIA FUNDAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">FUNDAS</h1>
                     <div class="cuadroDetails">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -273,12 +389,114 @@
                 </div>
               </div>
             </div><!--TERMINA FUNDAS-->
+            <div class="filterDiv accor rCama"><!--INICIA PROTECTOR DE CAMA-->
+              <div class="details">
+                <!--     AGREGAR ACORDION       -->
+                <section class="ac-container">
+                  <div>
+                      <input id="ac-21" name="accordion-2" type="radio">
+                      <label for="ac-21"><h1 class="txtTProducto">FUNDAS HOTELERAS</h1></label>
+                      <article class="ac-small tableP">
+                          <table>
+                            <tr>
+                              <th></th>
+                              <th>FUNDA ESTANDAR BLANCA <br> .52 x .80 </th>
+                              <th>FUNDA QUEEN SIZE BLANCA <br> .52 x .90 </th>
+                              <th>FUNDA KING SIZE BLANCA <br> .52 x 1.10 </th>
+                            </tr>
+                            <tr>
+                              <td>150 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>180 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>200 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>300 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                          </table>
+                      </article>
+                    </div>
+                  <div>
+                  <input id="ac-22" name="accordion-2" type="radio">
+                  <label for="ac-22"><h1 class="txtTProducto">FUNDAS HOTELERAS CON BIES Y PIOLA</h1></label>
+                  <article class="ac-medium tableP">
+                    <table>
+                      <tr>
+                        <th></th>
+                        <th>FUNDA ESTANDAR BLANCA <br> .52 x .80 </th>
+                        <th>FUNDA QUEEN SIZE BLANCA <br> .52 x .90 </th>
+                        <th>FUNDA KING SIZE BLANCA <br> .52 x 1.10 </th>
+                      </tr>
+                      <tr>
+                        <td>150 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>180 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>200 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                      <tr>
+                        <td>300 HILOS</td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        <td><img src="images/ok.png" alt="Producto Existente"></td>
+                      </tr>
+                    </table>
+                  </article>
+                  </div>
+                </section>
+                <!--     TERMINA ACORDION       -->
+              </div>
+            </div><!--TERMINA PROTECTOR DE CAMA-->
             <div class="filterDiv rCama"><!--INICIA PROTECTOR DE CAMA-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">PROTECTOR DE CAMA</h1>
                     <div class="cuadroDetails">
-
+                      <p>PROTECTOR DE COLCHON AHULADO  <br> CON TOALLIN Y RESORTE EN COLOR BLANCO </p>
+                      <table>
+                        <tr>
+                          <th>INDIVIDUAL 1.10 X 1.90 </th>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <th>MATRIMONIAL 1.40 X 1.90 </th>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <th>QUEEN SIZE  1.50 X 1.90 </th>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <th>KING SIZE 2 X 1.50</th>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                      </table>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -291,7 +509,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">COBERTORES</h1>
                     <div class="cuadroDetails">
-
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -304,7 +522,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">EDREDONES</h1>
                     <div class="cuadroDetails">
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -313,7 +531,7 @@
               </div>
             </div><!--TERMINA EDREDONES-->
             <!--TERMINA SECCION DE ROPA DE CAMA-->
-            <div class="filterDiv rMesa"><!--INICIA TITULO PRODUCTO-->
+            <div class="filterDiv rMesa tProIndv tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/rMesa.jpg" height="181" width="335">
@@ -330,7 +548,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">MANTELERIA</h1>
                     <div class="cuadroDetails">
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -339,7 +557,7 @@
               </div>
             </div><!--TERMINA MANTELERIA-->
             <!--TERMINA SECCION DE MESA UTILERIA-->
-            <div class="filterDiv rDecora"><!--INICIA TITULO PRODUCTO-->
+            <div class="filterDiv rDecora tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/rDecora.jpg" height="181" width="335">
@@ -356,7 +574,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">COJINES</h1>
                     <div class="cuadroDetails">
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -369,7 +587,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">CORTINAS</h1>
                     <div class="cuadroDetails">
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
