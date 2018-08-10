@@ -3,29 +3,200 @@
   <head>
     <meta charset="utf-8">
     <title>MATHEWS HOME</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <style media="screen">
-.animatedLogo {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-out;
+.open {
+  left: 10px;
+  position: relative;
+  top: 10px;
+width: 50px;
+height: 50px;
+display: block;
+cursor: pointer;
+transition: opacity 0.2s linear;
+}
+.open:hover {
+opacity: 0.8;
+}
+.open span {
+display: block;
+float: left;
+clear: both;
+height: 4px;
+width: 40px;
+border-radius: 40px;
+background-color: #fff;
+position: absolute;
+right: 3px;
+top: 3px;
+overflow: hidden;
+transition: all 0.4s ease;
+}
+.open span:nth-child(1) {
+margin-top: 10px;
+z-index: 9;
+}
+.open span:nth-child(2) {
+margin-top: 25px;
+}
+.open span:nth-child(3) {
+margin-top: 40px;
 }
 
-@keyframes zoomInDown {
-  0% {
-      opacity: 0;
-      transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
-      animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  }
-  60% {
-      opacity: 1;
-      transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
-      animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-  }
+.sub-menu {
+transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+height: 0;
+width: 0;
+right: 0;
+top: 0;
+position: absolute;
+background-color: rgba(38, 84, 133, 0.54);
+border-radius: 50%;
+z-index: 18;
+overflow: hidden;
 }
-.zoomInDown {
-  animation-name: zoomInDown;
+.sub-menu li {
+display: block;
+float: right;
+clear: both;
+height: auto;
+margin-right: -160px;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.sub-menu li:first-child {
+margin-top: 180px;
+}
+.sub-menu li:nth-child(1) {
+-webkit-transition-delay: 0.05s;
+}
+.sub-menu li:nth-child(2) {
+-webkit-transition-delay: 0.10s;
+}
+.sub-menu li:nth-child(3) {
+-webkit-transition-delay: 0.15s;
+}
+.sub-menu li:nth-child(4) {
+-webkit-transition-delay: 0.20s;
+}
+.sub-menu li:nth-child(5) {
+-webkit-transition-delay: 0.25s;
+}
+.sub-menu li a {
+color: #fff;
+font-family: 'Lato', Arial, Helvetica, sans-serif;
+font-size: 16px;
+width: 100%;
+display: block;
+float: left;
+line-height: 40px;
+}
+
+.oppenned .sub-menu {
+opacity: 1;
+height: 400px;
+width: 400px;
+}
+.oppenned span:nth-child(2) {
+overflow: visible;
+}
+.oppenned span:nth-child(1), .oppenned span:nth-child(3) {
+z-index: 100;
+-webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.oppenned span:nth-child(1) {
+-webkit-transform: rotate(45deg) translateY(12px) translateX(12px);
+        transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+.oppenned span:nth-child(2) {
+  height: 395px;
+  width: 400px;
+  left: -100px;
+  top: -160px;
+border-radius: 50%;
+background-color: rgba(38, 84, 133, 0.54);
+}
+.oppenned span:nth-child(3) {
+-webkit-transform: rotate(-45deg) translateY(-10px) translateX(10px);
+        transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+.oppenned li {
+margin-right: 100px;
+}
+
+.button {
+display: block;
+float: left;
+clear: both;
+padding: 20px 40px;
+background: #fff;
+border-radius: 3px;
+border: 2px solid #10a1ea;
+overflow: hidden;
+position: relative;
+}
+.button:after {
+transition: -webkit-transform 0.3s ease;
+transition: transform 0.3s ease;
+transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+content: "";
+position: absolute;
+height: 200px;
+width: 400px;
+-webkit-transform: rotate(45deg) translateX(-540px) translateY(-100px);
+        transform: rotate(45deg) translateX(-540px) translateY(-100px);
+background: #10a1ea;
+z-index: 1;
+}
+.button:before {
+transition: -webkit-transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+content: attr(title);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+color: #fff;
+z-index: 2;
+text-align: center;
+padding: 20px 40px;
+-webkit-transform: translateY(200px);
+        transform: translateY(200px);
+}
+.button:hover {
+text-decoration: none;
+}
+.button:hover:after {
+-webkit-transform: translateX(-300px) translateY(-100px);
+        transform: translateX(-300px) translateY(-100px);
+}
+.button:hover:before {
+-webkit-transform: translateY(0);
+        transform: translateY(0);
+}
+
 </style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+		$(document).delegate('.open', 'click', function(event){
+			$(this).addClass('oppenned');
+			event.stopPropagation();
+		})
+		$(document).delegate('body', 'click', function(event) {
+			$('.open').removeClass('oppenned');
+		})
+		$(document).delegate('.cls', 'click', function(event){
+			$('.open').removeClass('oppenned');
+			event.stopPropagation();
+		});
+	});
+</script>
 
   </head>
   <a href="#">
@@ -34,7 +205,31 @@
   <body id="mhome"data-spy="scroll" data-target=".navbar" data-offset="60">
     <header id="header">
       <div class="contHeader colorSemiDegradado">
-      <div class="contMenus">
+        <!--MENU MOBILE-->
+<div class="">
+  <div class="open">
+    <span class="cls"></span>
+    <span>
+  		<ul class="sub-menu ">
+  			<li>
+    			<p class="pMenu">MENU</p>
+  			</li>
+  			<li>
+  			  <a href="#nosotros">¿QUIÉNES SOMOS?</a>
+  			</li>
+  			<li>
+  				  <a href="#PRODUCTS">PRODUCTOS</a>
+  			</li>
+  			<li>
+  			  <a href="#contact">CONTACTO</a>
+  			</li>
+  		</ul>
+  	</span>
+    <span class="cls"></span>
+  </div>
+</div>
+        <!--MENU MOBILE-->
+      <div class="contMenus desktop">
         <div id="navbar1">
           <div class="contLogo">
             <img class="logoHeader animatedLogo zoomInDown" src="images/Logo_mathews.png" alt="Logo de Mathews Home">
@@ -49,7 +244,7 @@
 
         <h1 class="titleHome">CALIDAD Y CONFIANZA</h1>
         <h2 class="SubTitleHome">es nuestro compromiso</h2>
-        <a href="#contact"><button class="btnHome">CONTACTO</button></a>
+        <a class="btnContactar" href="#contact"><button class="btnHome">CONTACTO</button></a>
       </div>
     </header>
     <section id="section">
@@ -59,12 +254,14 @@
           <div id="nosotros" class="txtAbout">
             <h3 class="txtDer">¿QUIÈNES SOMOS?</h3>
             <p>
-              MATHEWS dedicada a la fabricación de blancos en general, desde 1990 tenemos 27 años de experiencia en el mercado brindando la máxima calidad en productos para el área de blancos como son sábanas, fundas, almohadas, protectores de colchón, colchas, toallas, etc.
+              MATHEWS HOME dedicada a la fabricación de blancos en general, desde 1990 tenemos experiencia en el
+              mercado brindando la máxima calidad en productos para el área HOTELERA, RESTAURANTERA, HOSPIATLARIA
+              Y DEL HOGAR, TIENDAS DEPARTAMENTALES, CLUBES DEPORTIVOS, ARTICULOS PROMOCIONALES, SPAS y SALAS DE BELLEZA.
               <br><br>
-              Siendo fabricantes y distribuidores, proveemos nuestro servicio a prestigiosos hoteles, hospitales y restaurantes, cubriendo así una demanda de nuestros productos a más de 500 clientes tanto en la República Mexicana como en el extranjero.
-              <br><br>
-              Nos hemos distinguido por ofrecer al cliente calidad, precio y atención en todos los productos y servicios que ofrecemos, lo que nos ha colocado como una de las empresas de productos textiles para hotelería, restaurantera y hogar.
-            </p>
+              Contamos con la logística para la fabricación de productos de la más alta calidad, talleres de costura
+              con más de 40 máquinas, fábrica de tela para la composición y estampado exclusivos, maquinas capitonadoras,
+              telares para toallas y cobertores y máquinas para hacer almohadas.
+          </p>
           </div>
           <div class="valoresAbout">
             <div class="boxValor">
@@ -199,7 +396,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">TOALLAS</h1>
                     <div class="cuadroDetails">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>CONTAMOS CON TOALLAS DE LA MAS ALTA CALIDAD EN 100% ALGODÓN, DE LAS MEDIDAS Y LOS PESOS QUE USTED REQUIERA, ASI COMO LA PERSONALIZACION EN BORDADO O ESTAMPADO.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -212,7 +409,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">BATA DE BAÑO</h1>
                     <div class="cuadroDetails">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>MANEJAMOS BATAS PERSONALIZADAS YA ESEA ESTAMPADA O BORDADA UNITALLA Y UNISES.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -220,6 +417,19 @@
                 </div>
               </div>
             </div><!--TERMINA BATA DE BAÑO-->
+            <div class="filterDiv rBanio"><!--INICIA ALFOMBRA DE BAÑO-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">ALFOMBRA DE BAÑO</h1>
+                    <div class="cuadroDetails">
+                      <p>TAPETE DE BAÑO EN MEDIDAS Y PESOS QUE REQUIDERA 100% ALGODÓN.</p>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/alfombra.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA ALFOMBRA DE BAÑO-->
             <!--TERMINA SECCION DE ROPA DE BAÑO-->
             <div class="filterDiv rCama tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card">
@@ -238,7 +448,10 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">ALMOHADAS</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        ALMOHADAS DE HOTELERIA CON RELLENO DE FRIBRAS SILICONIZADAS, 50% POLIESTER Y 50% ALGODÓN,  ALMOHADAS DOWN ALTERNATIVE CON FUNDAAS DE TELA DOWN PROOF ALGODÓN 100%. ALMOHADAS VISCOELASTICAS (TIPO MEMORY FOAM) ESTANDAR, ALMOHADA CERVICAL DE VIAJE Y ORTOPEDICA. ALMOHADA ECONOMICA CON RELLENO DE FIBRA SINTETICA SILICONIZADA, EN TELA MICROFIBRA TACTO ALGODÓN.
+                        <br>TODAS NUESTRAS ALMOHADAS SON HIPOALERGENICAS Y ANTIACAROS.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -252,7 +465,7 @@
                   <h1 class="txtTProducto">SABANAS</h1>
                     <div class="cuadroDetails">
                     <!--COMIENZA SABANAS ESPECIFICO HILOS-->
-                    SABANA PLANA O DE CAJON INDIVIDUAL 50% POLIESTER 50% ALGODÓN COLOR BLANCO
+                    HACEMOS SABANAS CON BIES, BIES Y PIOLA Y FESTON BORDADO. EN LAS MEDIDAS QUE USTED REQUIERA. PARA LA EPOCA INVERNAL CONTAMOS CON SABANAS DE TELA DE FRANELA Y POLAR FLEECE.
                       <!--TERMINA PRODUCTO ESPECIFICO HILOS-->
                     </div>
                 </div>
@@ -381,7 +594,12 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">FUNDAS</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        CONTAMOS CON VARIEDAD DE TELAS COMO SON 50/50 POLIESTER/ ALGODÓN,
+                        100% ALGODÓN Y MICROFIBRA 100% POLIESTER TACTO ALGODÓN ( SE SIENTE COMO ALGODÓN EGIPCIO),
+                        ASI COMO DIFERENTES HILAJES QUE VAN DESDE 120 HILOS HASTA 500 HILOS.
+                        EN LAS MEDIDAS QUE USTED REQUIERA.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -478,7 +696,7 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">PROTECTOR DE CAMA</h1>
                     <div class="cuadroDetails">
-                      <p>PROTECTOR DE COLCHON AHULADO  <br> CON TOALLIN Y RESORTE EN COLOR BLANCO </p>
+                      <p>PROTECTOR DE COLCHON AHULADO CON TOALLIN Y RESORTE EN COLOR BLANCO. AHULADOS CON TOALLIN O FELPA CON RESORTE EN LAS CUATRO ESQUINAS. </p>
                       <table>
                         <tr>
                           <th>INDIVIDUAL 1.10 X 1.90 </th>
@@ -509,7 +727,10 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">COBERTORES</h1>
                     <div class="cuadroDetails">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        TENEMOS COBERTORES TERMICOS DE TELA POLAR FLANNEL ASI COMO DE ACRILAN Y LANA.
+                        MANEJAMOS TODAS LAS MEDIDAS Y PESOS QUE DESEE EN VARIOS COLORES.
+                         </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -522,7 +743,13 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">EDREDONES</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        HECHOS CON LA MAS ALTA CALIDAD EN TELAS LISAS Y ESTAMPADAS ASI COMO DIFERENTES ESPESORES
+                        QUE VAN DESDE 200 GRS. HASTA 400 GRS. CONTAMOS CON VARIEDAD DE TELAS COMO SON 50/50
+                        POLIESTER/ALGODÓN, 100% ALGODÓN Y MICROFIBRA 100% POLIESTER TACTO ALGODÓN
+                        (SE SIENTE COMO ALGODÓN EGIPCIO), ASI COMO DIFERENTES HILAJES QUE VAN DESDE 120 HILOS
+                        HASTA 500 HILOS. EN LAS MEDIDAS QUE USTED REQUIERA.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -548,7 +775,10 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">MANTELERIA</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        MANEJAMOS TODAS LAS MEDIDAS EN TELA GRANITA, TAMPA, ALGODONES,EMCAKES U TERGALES CON BORDADOS Y
+                        FESTONES A SU GUSTO. ASI COMO SERVILLETAS, CUBREMANTELES, FORROS Y CINTAS PARA SILLA DE LA MISMA CALIDAD.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -574,7 +804,11 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">COJINES</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        REALIZAMOS TODO TIPO DE COJINES DECORATIVOS EN LAS MEDIDAS Y PESOS QUE USTED
+                        REQUIERA EN TELAS LISAS Y ESTAMPADAS, CON RELLENOS DE FIBRA SINTETICA SILICONIZADA,
+                        ASI COMO COJINES DE VIAJE DE ESPUMA VISCOELASTICA (TIPO MEMORY FOAM).
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -587,7 +821,10 @@
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">CORTINAS</h1>
                     <div class="cuadroDetails">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>
+                        CONTAMOS CON CORTINAS PARA BAÑO DE TELA CON REPELENTE.
+                        CORTINAS ANTIBACTERIALES PARA HOSPITALES HOETELERAS CON TERMATROL Y TERMALUM(BLACK OUT) TERMICAS IMPIDIENDO EL PASO DE LA LUZ EN 90%.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -606,7 +843,7 @@
         <div class="lineDivisor">
           <img class="" src="images/line.png">
         </div>
-        <img class="" src="images/cuentas.png">
+        <img class="imgCuentas" src="images/cuentas.png">
       </div>
       <div class="contacto">
         <div id="contact" class="ContMap">
@@ -687,44 +924,7 @@
     </footer>
     <!-- 	 -->
     <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-    </script>
-
-    <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" activeDot", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " activeDot";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
 </script>
 
   <link rel="stylesheet" href="style/style.css">
