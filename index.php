@@ -12,28 +12,28 @@
   left: 10px;
   position: relative;
   top: 10px;
-width: 50px;
-height: 50px;
-display: block;
-cursor: pointer;
-transition: opacity 0.2s linear;
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
 }
 .open:hover {
 opacity: 0.8;
 }
 .open span {
-display: block;
-float: left;
-clear: both;
-height: 4px;
-width: 40px;
-border-radius: 40px;
-background-color: #fff;
-position: absolute;
-right: 3px;
-top: 3px;
-overflow: hidden;
-transition: all 0.4s ease;
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
 }
 .open span:nth-child(1) {
 margin-top: 10px;
@@ -206,28 +206,29 @@ $(document).ready(function() {
     <header id="header">
       <div class="contHeader colorSemiDegradado">
         <!--MENU MOBILE-->
-<div class="">
-  <div class="open">
-    <span class="cls"></span>
-    <span>
-  		<ul class="sub-menu ">
-  			<li>
-    			<p class="pMenu">MENU</p>
-  			</li>
-  			<li>
-  			  <a href="#nosotros">¿QUIÉNES SOMOS?</a>
-  			</li>
-  			<li>
-  				  <a href="#PRODUCTS">PRODUCTOS</a>
-  			</li>
-  			<li>
-  			  <a href="#contact">CONTACTO</a>
-  			</li>
-  		</ul>
-  	</span>
-    <span class="cls"></span>
-  </div>
-</div>
+      <div class="">
+        <div class="open">
+          <span class="cls"></span>
+          <span>
+        		<ul class="sub-menu ">
+              <li>                      <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
+        			<li>
+          			<p class="pMenu">MENU</p>
+        			</li>
+        			<li>
+        			  <a href="#nosotros">¿QUIÉNES SOMOS?</a>
+        			</li>
+        			<li>
+        				  <a href="#PRODUCTS">PRODUCTOS</a>
+        			</li>
+        			<li>
+        			  <a href="#contact">CONTACTO</a>
+        			</li>
+        		</ul>
+        	</span>
+          <span class="cls"></span>
+        </div>
+      </div>
         <!--MENU MOBILE-->
       <div class="contMenus desktop">
         <div id="navbar1">
@@ -239,7 +240,7 @@ $(document).ready(function() {
           <a href="#PRODUCTS">PRODUCTOS</a>
           <a href="#contact">CONTACTO</a>
         </div>
-        <div class=" circulo"></div>
+        <div class="circulo"></div>
       </div>
 
         <h1 class="titleHome">CALIDAD Y CONFIANZA</h1>
@@ -372,15 +373,15 @@ $(document).ready(function() {
     			<div id="myBtnFilContainer">
     			  <button class="fbtn active" onclick="filterSelection('all')"> VER TODO</button>
             <button class="fbtn" onclick="filterSelection('rCama')">ROPA DE CAMA</button>
-    			  <button class="fbtn" onclick="filterSelection('rBanio')">ROPA DE BAÑO</button>
+    			  <button class="fbtn" onclick="filterSelection('rBanio displayProducto')">ROPA DE BAÑO</button>
     			  <button class="fbtn" onclick="filterSelection('rMesa')">MESA / MANTELERIA</button>
     			  <button class="fbtn" onclick="filterSelection('rDecora')">DECORACIÓN</button>
     			</div>
 
     			<div class="container"><!--INICIA CONTENEDOR-->
 
-            <div class="filterDiv rBanio tProIndv"><!--INICIA TITULO PRODUCTO-->
-              <div class="card">
+            <div class="filterDiv rBanio displayProducto tProIndv"><!--INICIA TITULO PRODUCTO-->
+              <div class="card tCard tCard">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/ropaBanio.jpg">
                   <div class="tittleProducto">
@@ -391,7 +392,7 @@ $(document).ready(function() {
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rBanio"><!--INICIA TOALLAS-->
+            <div class="filterDiv rBanio displayProducto"><!--INICIA TOALLAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">TOALLAS</h1>
@@ -404,7 +405,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA TOALLAS-->
-            <div class="filterDiv rBanio"><!--INICIA BATA DE BAÑO-->
+            <div class="filterDiv rBanio displayProducto"><!--INICIA BATA DE BAÑO-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">BATA DE BAÑO</h1>
@@ -417,7 +418,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA BATA DE BAÑO-->
-            <div class="filterDiv rBanio"><!--INICIA ALFOMBRA DE BAÑO-->
+            <div class="filterDiv rBanio displayProducto"><!--INICIA ALFOMBRA DE BAÑO-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">ALFOMBRA DE BAÑO</h1>
@@ -432,7 +433,7 @@ $(document).ready(function() {
             </div><!--TERMINA ALFOMBRA DE BAÑO-->
             <!--TERMINA SECCION DE ROPA DE BAÑO-->
             <div class="filterDiv rCama tProIndv"><!--INICIA TITULO PRODUCTO-->
-              <div class="card">
+              <div class="card tCard">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/ropaCama2.jpg">
                   <div class="tittleProducto">
@@ -443,7 +444,7 @@ $(document).ready(function() {
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rCama"><!--INICIA ALMOHADAS-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">ALMOHADAS</h1>
@@ -459,7 +460,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA ALMOHADAS-->
-            <div class="filterDiv rCama"><!--INICIA SABANAS-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA SABANAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">SABANAS</h1>
@@ -474,7 +475,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA PRODUCTO-->
-            <div class="filterDiv accor rCama"><!--INICIA FUNDAS-->
+            <div class="filterDiv accor rCama displayProducto"><!--INICIA FUNDAS-->
               <div class="details">
                 <!--     AGREGAR ACORDION       -->
                 <section class="ac-container">
@@ -589,7 +590,7 @@ $(document).ready(function() {
                 <!--     TERMINA ACORDION       -->
               </div>
             </div><!--TERMINA FUNDAS-->
-            <div class="filterDiv rCama"><!--INICIA FUNDAS-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA FUNDAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">FUNDAS</h1>
@@ -607,7 +608,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA FUNDAS-->
-            <div class="filterDiv accor rCama"><!--INICIA PROTECTOR DE CAMA-->
+            <div class="filterDiv accor rCama displayProducto"><!--INICIA PROTECTOR DE CAMA-->
               <div class="details">
                 <!--     AGREGAR ACORDION       -->
                 <section class="ac-container">
@@ -691,13 +692,13 @@ $(document).ready(function() {
                 <!--     TERMINA ACORDION       -->
               </div>
             </div><!--TERMINA PROTECTOR DE CAMA-->
-            <div class="filterDiv rCama"><!--INICIA PROTECTOR DE CAMA-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA PROTECTOR DE CAMA-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">PROTECTOR DE CAMA</h1>
                     <div class="cuadroDetails">
                       <p>PROTECTOR DE COLCHON AHULADO CON TOALLIN Y RESORTE EN COLOR BLANCO. AHULADOS CON TOALLIN O FELPA CON RESORTE EN LAS CUATRO ESQUINAS. </p>
-                      <table>
+                      <table class="sTDetails">
                         <tr>
                           <th>INDIVIDUAL 1.10 X 1.90 </th>
                           <td><img src="images/ok.png" alt="Producto Existente"></td>
@@ -722,7 +723,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA PROTECTOR DE CAMA-->
-            <div class="filterDiv rCama"><!--INICIA COBERTORES-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA COBERTORES-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">COBERTORES</h1>
@@ -738,7 +739,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA COBERTORES-->
-            <div class="filterDiv rCama"><!--INICIA EDREDONES-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA EDREDONES-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">EDREDONES</h1>
@@ -758,8 +759,8 @@ $(document).ready(function() {
               </div>
             </div><!--TERMINA EDREDONES-->
             <!--TERMINA SECCION DE ROPA DE CAMA-->
-            <div class="filterDiv rMesa tProIndv tProIndv"><!--INICIA TITULO PRODUCTO-->
-              <div class="card">
+            <div class="filterDiv rMesa tProIndv "><!--INICIA TITULO PRODUCTO-->
+              <div class="card tCard">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/rMesa.jpg" height="181" width="335">
                   <div class="tittleProducto">
@@ -770,7 +771,7 @@ $(document).ready(function() {
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rMesa"><!--INICIA MANTELERIA-->
+            <div class="filterDiv rMesa displayProducto"><!--INICIA MANTELERIA-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">MANTELERIA</h1>
@@ -788,7 +789,7 @@ $(document).ready(function() {
             </div><!--TERMINA MANTELERIA-->
             <!--TERMINA SECCION DE MESA UTILERIA-->
             <div class="filterDiv rDecora tProIndv"><!--INICIA TITULO PRODUCTO-->
-              <div class="card">
+              <div class="card tCard">
                 <div class="imgBx">
                   <img class="imagenAjustada" src="images/productos/rDecora.jpg" height="181" width="335">
                   <div class="tittleProducto">
@@ -841,7 +842,7 @@ $(document).ready(function() {
           <h1 class="tProdGral">NUESTROS CLIENTES</h1>
         </div>
         <div class="lineDivisor">
-          <img class="" src="images/line.png">
+          <img class="imgCuentas" src="images/line.png">
         </div>
         <img class="imgCuentas" src="images/cuentas.png">
       </div>

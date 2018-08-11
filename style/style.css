@@ -1085,8 +1085,10 @@ table {
 }
 
 th, td {
-    text-align: center;
-    padding: 0px;
+  text-align: center;
+  padding: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -1125,7 +1127,9 @@ tr:nth-child(even){background-color: #f2f2f2}
 .mobile{
   display: none;
 }
-
+.open {
+  display: none;
+}
 
 /* ++++++++++++++++++++++++++++++ RESPONSIVE +++++++++++
 PARA IPADS / TABLETAS      */
@@ -1133,6 +1137,13 @@ PARA IPADS / TABLETAS      */
 @media (min-width:861px) and (max-width:1024px) {
   body {
       max-width: 1024px;
+  }
+  #header {
+      background: url(../images/bannerImage.jpg) center no-repeat;
+      background-size: cover;
+  }
+  .open {
+    display: none;
   }
   .contMenus {
       left: 5%;
@@ -1180,6 +1191,13 @@ PARA IPADS / TABLETAS      */
       -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
       -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
       box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+  }
+  .open {
+    display: none;
+  }
+  #header {
+      background: url(../images/bannerImage.jpg) center no-repeat;
+      background-size: cover;
   }
   .contMenus {
       left: 2%;
@@ -1269,7 +1287,7 @@ PARA IPADS / TABLETAS      */
   }
 }
 /*Portatil de forma vertical */
-@media screen and (max-width:669px), and (orientation: portrait){
+@media screen and (max-width:740px), and (orientation: portrait){
   body {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
       -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
@@ -1316,7 +1334,7 @@ PARA IPADS / TABLETAS      */
     display: block;
 }
 .contSec {
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     width: 100%;
@@ -1326,20 +1344,186 @@ PARA IPADS / TABLETAS      */
   }
   .CCalidad {
       width: 100%;
-      display: flex;
       justify-content: center;
       margin-bottom: 0px;
       height: 120px;
-      padding: 2%;
+      padding: 0px;
   }
 .txtDesc{
   width: 100%;
 }
+p {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.txtDer {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#myBtnFilContainer {
+    display: grid;
+}
 
+.tittleProducto {
+    width: 100%;
+    height: 25%;
+    bottom: 25%;
+    right: 0px;
+    border: var(--fondoGrey) solid 0px;
+  }
 
+.container {
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+.imgBoxProducto, .imgProdcutoBOX {
+    width: 100%;
+}
+.details {
+    display: block;
+    border: var(--fondoGrey) solid 0px;
+}
+.tCard{height: 300px;}
+.filterDiv {
+    height: auto;
+}
+.opcT {
+    padding: 0px 10px;
+}
+.txtTPRo {
+    font-size: 1.5em;
+    margin: 0px;
+    margin-top: 10px;
+}
+.card:hover .details {
+    font-size: .8em;
+}
+.cuadroDetails {
+    height: auto;
+    border: var(--fondoGrey) solid 0px;
+}
+.ac-container input:checked ~ article.ac-small {
+    overflow-x: scroll;
+}
+.ac-container input:checked ~ article.ac-medium {
+  height: auto;
+  overflow-x: scroll;
+}
+table {
+    width: max-content;
+}
+.txtTProducto {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.sTDetails{
+  width: 100%;
+}
 
+.contForm {
+    height: auto;
+    display: block;
+}
+.tProdGral {
+    font-size: 2em;
+}
+.cForm, .cDatos {
+      width: 100%;
+  }
+  .txtTel {
+      font-size: 1em;
+      line-height: 27px;
+  }
+
+  .campoForm {
+    display: block;
+}
+.textField {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.txtArea {
+    margin: 0px;
+    margin-top: 10px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: none;
+}
+.protectionInfo {
+  display: block;
+  text-align: -webkit-center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.formLink {
+    font-size: 1.2em;
+    margin: 0px;
+}
+.tContacto {
+      font-size: 2em;
+      padding-right: 0px;
+  }
+  .contTel {
+    width: 95%;
+    height: auto;
+    margin: 0px;
+    background-color: var(--whitteSolid);
+    text-align: center;
+}
+#header {
+    background: url(../images/bannerImage.jpg) center no-repeat;
+    background-size: cover;
+}
+.open {
+  display: flex;
+}
 }
 /*     media para pantalla pequeÃ±a y horizontal */
-@media (min-width:470px) and (max-width:820px)  and (orientation: landscape){
+@media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
+  .cForm, .cDatos {
+      width: 100%;
+      padding: 0px;
+  }
+  .ac-container input:checked ~ article.ac-medium {
+      height: auto;
+      overflow-x: scroll;
+  }
+  .ac-container input:checked ~ article.ac-small {
+      overflow-x: scroll;
+  }
+  .contForm {
+      display: flex;
+  }
+  .campoForm {
+    display: block;
+    text-align: center;
+}
+.titleHome {
+    top: 25%;
+}
+.SubTitleHome {
+    top: 35%;
+    right: 50px;
+}
+.contHeader {
+    height: 430px;
+}
+.titleHome {
+    top: 20%;
+    right: 70px;
+}
+.contCatact {
+    display: flex;
+}
+#myBtnFilContainer {
+    display: flex;
+    font-size: 12px;
+}
 
 }
