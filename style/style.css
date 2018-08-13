@@ -98,7 +98,9 @@ p {
     margin: 0px;
     margin: auto;
   }
-
+ ul{
+  margin: 0px;
+ }
   .txtDer{
     text-align: left;
   }
@@ -200,7 +202,7 @@ p {
 
 .titleHome{
   top: 35%;
-  right: 5%;
+  right: 15%;
   display: block;
   position: absolute;
   color: var(--whitteSolid);
@@ -208,7 +210,7 @@ p {
 }
 .SubTitleHome{
   top: 44%;
-  right: 15%;
+  right: 20%;
   display: block;
   position: absolute;
   color: var(--whitteSolid);
@@ -216,7 +218,7 @@ p {
 }
 .btnHome {
   top: 60%;
-  right: 40%;
+  right: 25%;
   position: absolute;
   display: block;
   width: 200px;
@@ -723,17 +725,19 @@ width: 60%
 }
 
 .cuadroDetails{
-  width: 90%;
-  height: 190px;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: var(--blue4);
-  border: var(--fondoGrey) solid 2px;
-  border-style: dashed;
-  color: var(--blue1);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--blue4);
+    border: var(--fondoGrey) solid 2px;
+    border-style: dashed;
+    color: var(--blue1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .lineDivisor{
@@ -1085,10 +1089,11 @@ table {
 }
 
 th, td {
-  text-align: center;
-  padding: 0px;
-  padding-left: 8px;
-  padding-right: 8px;
+    text-align: center;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid var(--blue2);
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -1483,9 +1488,18 @@ table {
 .open {
   display: flex;
 }
+
+.containerCuentas {
+      display: block !important;
+    }
 }
 /*     media para pantalla pequeÃ±a y horizontal */
 @media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
+.containerCuentas {
+    display: grid !important;
+    grid-template-areas: 'g0 g1' 'g2 g3' ' g4 g5' 'g6 g7' 'g8 g9' !important;
+}
+
   .cForm, .cDatos {
       width: 100%;
       padding: 0px;
@@ -1526,4 +1540,59 @@ table {
     font-size: 12px;
 }
 
+}
+
+
+.containerCuentas {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'g0 g1 g2' 'g3 g4 g5' 'g6 g7 g8';
+}
+
+.area-g0 {
+    grid-area: g0;
+    text-align: center;
+}
+
+.area-g1 {
+    grid-area: g1;
+    text-align: center;
+}
+
+.area-g2 {
+    grid-area: g2;
+    text-align: center;
+}
+
+.area-g3 {
+    grid-area: g3;
+    text-align: center;
+}
+
+.area-g4 {
+    grid-area: g4;
+    text-align: center;
+}
+
+.area-g5 {
+    grid-area: g5;
+    text-align: center;
+}
+
+.area-g6 {
+    grid-area: g6;
+    text-align: center;
+}
+
+.area-g7 {
+    grid-area: g7;
+    text-align: center;
+}
+
+.area-g8 {
+    grid-area: g8;
+    text-align: center;
 }

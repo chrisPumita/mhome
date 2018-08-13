@@ -243,8 +243,8 @@ $(document).ready(function() {
         <div class="circulo"></div>
       </div>
 
-        <h1 class="titleHome">CALIDAD Y CONFIANZA</h1>
-        <h2 class="SubTitleHome">es nuestro compromiso</h2>
+        <h1 class="titleHome">TRABAJAMOS</h1>
+        <h2 class="SubTitleHome">A TU MEDIDA</h2>
         <a class="btnContactar" href="#contact"><button class="btnHome">CONTACTO</button></a>
       </div>
     </header>
@@ -255,13 +255,10 @@ $(document).ready(function() {
           <div id="nosotros" class="txtAbout">
             <h3 class="txtDer">¿QUIÈNES SOMOS?</h3>
             <p>
-              MATHEWS HOME dedicada a la fabricación de blancos en general, desde 1990 tenemos experiencia en el
-              mercado brindando la máxima calidad en productos para el área HOTELERA, RESTAURANTERA, HOSPIATLARIA
-              Y DEL HOGAR, TIENDAS DEPARTAMENTALES, CLUBES DEPORTIVOS, ARTICULOS PROMOCIONALES, SPAS y SALAS DE BELLEZA.
-              <br><br>
-              Contamos con la logística para la fabricación de productos de la más alta calidad, talleres de costura
-              con más de 40 máquinas, fábrica de tela para la composición y estampado exclusivos, maquinas capitonadoras,
-              telares para toallas y cobertores y máquinas para hacer almohadas.
+              MATHEWS HOME dedicada a la fabricación de blancos en general, desde 1990 tenemos experiencia en el mercado brindando la máxima calidad en productos para el área HOTELERA, RESTAURANTERA, HOSPITALARIA Y DEL HOGAR, TIENDAS DEPARTAMENTALES, CLUBES DEPORTIVOS, ARTICULOS PROMOCIONALES, SPAS, SALAS DE BELLEZA, ECT. <br><br>
+              Vendemos telas, hacemos capitonados. Hacemos desde productos de línea hasta mercancías fabricadas especialmente desarrolladas por su ingenio. Como un servicio más ofrecemos bordados  e impresos personalizados en sus prendas. <br><br>
+              Los más importante, somos una gran familia laboral donde cada aérea cuenta con mano de obra especializada para que cada una de sus prendas sean hechas con el cuidado, dedicación y el confort que usted necesita.
+
           </p>
           </div>
           <div class="valoresAbout">
@@ -326,7 +323,10 @@ $(document).ready(function() {
               </div>
               <div class="txtDesc">
                 <h3>PRODUCTOS DE CALIDAD</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>
+                  Porque sabemos que la satisfacción de tus clientes es lo mas importante,
+                  cada una de sus prendas son hechas con el cuidado, dedicación y confort que usted necesita.
+                </p>
               </div>
             </div>
             <div class="boxDesc gralBox">
@@ -336,7 +336,7 @@ $(document).ready(function() {
               </div>
               <div class="txtDesc">
                 <h3>PEDIDOS URGENTES</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Contamos con la logística para atender solicitudes en el momento (on demand) respaldados en nuestros talleres de costura equipados con mas de 40 máquinas a su servicio.</p>
               </div>
             </div>
           </div>
@@ -347,8 +347,8 @@ $(document).ready(function() {
                 </div>
               </div>
               <div class="txtDesc">
-                <h3>PRODUCTOS DE CALIDAD</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3>HECHOS A LA MEDIDA</h3>
+                <p>Hacemos desde productos de línea hasta mercancía fabricada con telas especiales para brindar la composición, estampado y diseño deseado para sus prendas de forma exclusiva.</p>
               </div>
             </div>
             <div class="boxDesc gralBox">
@@ -357,8 +357,8 @@ $(document).ready(function() {
                 </div>
               </div>
               <div class="txtDesc">
-                <h3>PRODUCTOS DE CALIDAD</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3>MAQUINARIA Y EQUIPO</h3>
+                <p>Nuestra fábrica cuenta con diferente equipamiento como máquinas capitonadoras, telares para toallas y cobertores, máquinas para hacer almohadas, así como mano de obra especializada.</p>
               </div>
             </div>
           </div>
@@ -379,7 +379,7 @@ $(document).ready(function() {
     			</div>
 
     			<div class="container"><!--INICIA CONTENEDOR-->
-
+<!-- BAÑO -->
             <div class="filterDiv rBanio displayProducto tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card tCard tCard">
                 <div class="imgBx">
@@ -389,7 +389,7 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE BAÑO</h1>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+               EN MATHEWSHOME REUNIMOS DIFERENTES TEXTILES PARA HOTELERÍA, CARACTERIZADOS POR SUS MATERIALES QUE APORTAN SUAVIDAD Y TEXTURA PARA SATISFACER LAS NECESIDADES DE LOS HUÉSPEDES DE SPA, CENTRO DE BELLEZA U HOTELES. LA CALIDAD DE LOS PRODUCTOS QUE FABRICAMOS PERMITEN SER USADOS Y LAVADOS FRECUENTEMENTE SIN PERDER SUS CUALIDADES NI LA CAPACIDAD DE SECADO, ADEMA PODEMOS PERSONALIZARLOS PARA SU MARCA INCLUYENDO SU LOGOTIPO BORDADO.</div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rBanio displayProducto"><!--INICIA TOALLAS-->
@@ -397,7 +397,7 @@ $(document).ready(function() {
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">TOALLAS</h1>
                     <div class="cuadroDetails">
-                      <p>CONTAMOS CON TOALLAS DE LA MAS ALTA CALIDAD EN 100% ALGODÓN, DE LAS MEDIDAS Y LOS PESOS QUE USTED REQUIERA, ASI COMO LA PERSONALIZACION EN BORDADO O ESTAMPADO.</p>
+                      <p>NUESTRA TOALLAS SON  MUY SUAVES Y ESPONJOSAS AL TACTO, CON UNA PERFECTA ABSORBENCIA PARA EL USO DIARIO, ESTÁN COMPUESTAS EN 100% ALGODÓN, PUEDEN IR PERSONALIZADAS CON BORDADO O ESTAMPADO. DISPONIBLES EN MEDIDAS Y PESOS QUE SU NEGOCIO REQUIERA.</p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -431,6 +431,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA ALFOMBRA DE BAÑO-->
+<!-- CAMA -->
             <!--TERMINA SECCION DE ROPA DE BAÑO-->
             <div class="filterDiv rCama tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card tCard">
@@ -441,7 +442,9 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE CAMA</h1>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                  TENEMOS TODOS LOS BLANCOS NECESARIOS PARA VESTIR LOS CUARTOS DE HOTEL, SUITES, SPAS, GRAN TURISMO, DIAMANTES, BOUTIQUES, ETC. <br>
+                  OFRECEMOS UNA GRAN VARIEDAD DE TERMINADOS Y TELAS DE CALIDAD INTERNACIONAL CON LA MEJOR SUAVIDAD Y DURABILIDAD, QUE VAN DESDE LOS 150 HASTA 300 HILOS EN POLIÉSTER O ALGODÓN.
+                </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADAS-->
@@ -450,8 +453,7 @@ $(document).ready(function() {
                   <h1 class="txtTProducto">ALMOHADAS</h1>
                     <div class="cuadroDetails">
                       <p>
-                        ALMOHADAS DE HOTELERIA CON RELLENO DE FRIBRAS SILICONIZADAS, 50% POLIESTER Y 50% ALGODÓN,  ALMOHADAS DOWN ALTERNATIVE CON FUNDAAS DE TELA DOWN PROOF ALGODÓN 100%. ALMOHADAS VISCOELASTICAS (TIPO MEMORY FOAM) ESTANDAR, ALMOHADA CERVICAL DE VIAJE Y ORTOPEDICA. ALMOHADA ECONOMICA CON RELLENO DE FIBRA SINTETICA SILICONIZADA, EN TELA MICROFIBRA TACTO ALGODÓN.
-                        <br>TODAS NUESTRAS ALMOHADAS SON HIPOALERGENICAS Y ANTIACAROS.
+                        COMO COMPLEMENTO DE LOS PRODUCTOS PARA EL DESCANSO, OFRECEMOS DIFERENTES TIPOS DE ALMOHADAS Y PODEMOS HACERLAS DE LA MEDIDA Y PESO QUE USTED REQUIERA.
                       </p>
                     </div>
                 </div>
@@ -460,10 +462,96 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA ALMOHADAS-->
-            <div class="filterDiv rCama displayProducto"><!--INICIA SABANAS-->
+
+            <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA COBERTORES-->
+              <div class="details">
+                <!--     AGREGAR ACORDION OBERTORES      -->
+                <section class="ac-container">
+                  <div>
+                      <input id="ac-41" name="accordion-1" type="radio">
+                      <label for="ac-41"><h1 class="txtTProducto">ALMOHADAS</h1></label>
+                      <article class="ac-small tableP">
+                          <table>
+                            <tbody><tr>
+                              <th></th>
+                              <th>RELLENO</th>
+                              <th>CUBIERTA</th>
+                              <th>TAMAÑO (cm)</th>
+                              <th>HILOS</th>
+                              <th>PESO (g)</th>
+                              <th>HIPOALERGÉNICA</th>
+                              <th>ANTIÁCAROS</th>
+                              <th>VIAJERA ORTOPEDICA</th>
+                            </tr>
+                            <tr>
+                              <td>ECONÓMICA</td>
+                              <td>SINTÉTICA</td>
+                              <td>FUNDA BRAMANTE  50% POLIÉSTER 50 % ALGODÓN</td>
+                              <td>.60 X .50</td>
+                              <td>150</td>
+                              <td>500</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td></td>
+                            </tr>                            
+                            <tr>
+                              <td>ECONÓMICA HOTELERA</td>
+                              <td>DELCRON SILICONADO</td>
+                              <td>FUNDA BRAMANTE  50% POLIÉSTER 50 % ALGODÓN</td>
+                              <td>.60 X .50</td>
+                              <td>HASTA 240</td>
+                              <td>700</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>HOTELERA</td>
+                              <td>DELCRON SILICONADO</td>
+                              <td>BRAMANTE 50% POLIÉSTER 50% ALGODÓN</td>
+                              <td>.90 X .50</td>
+                              <td>150</td>
+                              <td>900</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>HALOM</td>
+                              <td>DOWN ALTERNATIVE (TIPO PLUMA DE GANSO)</td>
+                              <td>TELA DOWN PROF O ANTI PLUMA 100%ALGODÓN</td>
+                              <td>.68 X .47</td>
+                              <td>HASTA 300</td>
+                              <td></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>VISCO ELÁSTICAS (TIPO MEMORY FORM)</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                          </tbody></table>
+                      </article>
+                    </div>
+                </section>
+                <!--     TERMINA ACORDION COBERTOR      -->
+              </div>
+            </div>
+
+
+            <div class="filterDiv rCama displayProducto">
+              <!--INICIA SABANAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
-                  <h1 class="txtTProducto">SABANAS</h1>
+                  <h1 class="txtTProducto">SÁBANAS</h1>
                     <div class="cuadroDetails">
                     <!--COMIENZA SABANAS ESPECIFICO HILOS-->
                     HACEMOS SABANAS CON BIES, BIES Y PIOLA Y FESTON BORDADO. EN LAS MEDIDAS QUE USTED REQUIERA. PARA LA EPOCA INVERNAL CONTAMOS CON SABANAS DE TELA DE FRANELA Y POLAR FLEECE.
@@ -482,7 +570,7 @@ $(document).ready(function() {
                   <div>
                 <!--      <input id="ac-1" name="accordion-1" type="radio" checked="">-->
                       <input id="ac-1" name="accordion-1" type="radio">
-                      <label for="ac-1"><h1 class="txtTProducto">SABANAS PLANAS O DE CAJON</h1></label>
+                      <label for="ac-1"><h1 class="txtTProducto">SABANAS HOTELEAS PLANAS O DE CAJON</h1></label>
                       <article class="ac-small tableP">
                           <table>
                             <tr>
@@ -535,7 +623,7 @@ $(document).ready(function() {
                     </div>
                   <div>
                   <input id="ac-2" name="accordion-1" type="radio">
-                  <label for="ac-2"><h1 class="txtTProducto">SABANAS PLANAS O DE CAJON CON BIES Y PIOLA</h1></label>
+                  <label for="ac-2"><h1 class="txtTProducto">SABANA HOTELERA PLANAS O DE CAJON CON BIES Y PIOLA</h1></label>
                   <article class="ac-medium tableP">
                     <table>
                       <tr>
@@ -596,10 +684,7 @@ $(document).ready(function() {
                   <h1 class="txtTProducto">FUNDAS</h1>
                     <div class="cuadroDetails">
                       <p>
-                        CONTAMOS CON VARIEDAD DE TELAS COMO SON 50/50 POLIESTER/ ALGODÓN,
-                        100% ALGODÓN Y MICROFIBRA 100% POLIESTER TACTO ALGODÓN ( SE SIENTE COMO ALGODÓN EGIPCIO),
-                        ASI COMO DIFERENTES HILAJES QUE VAN DESDE 120 HILOS HASTA 500 HILOS.
-                        EN LAS MEDIDAS QUE USTED REQUIERA.
+                        EL CONJUNTO DE PRODUCTOS PARA VESTIR LA CAMA NO SOLO DEBEN DE LUCIR BIEN, SINO QUE ADEMÁS DEBEN SER CÓMODAS PARA AYUDAR A DORMIR MEJOR, POR LO CUAL EL TIPO DE FUNDAS QUE ESCOJA SERÁ CLAVE PARA EL DESCANSO.
                       </p>
                     </div>
                 </div>
@@ -608,12 +693,12 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA FUNDAS-->
-            <div class="filterDiv accor rCama displayProducto"><!--INICIA PROTECTOR DE CAMA-->
+            <div class="filterDiv accor rCama displayProducto"><!--INICIA ACOR DE FUNDAS-->
               <div class="details">
                 <!--     AGREGAR ACORDION       -->
                 <section class="ac-container">
                   <div>
-                      <input id="ac-21" name="accordion-2" type="radio">
+                      <input id="ac-21" name="accordion-1" type="radio">
                       <label for="ac-21"><h1 class="txtTProducto">FUNDAS HOTELERAS</h1></label>
                       <article class="ac-small tableP">
                           <table>
@@ -651,53 +736,56 @@ $(document).ready(function() {
                       </article>
                     </div>
                   <div>
-                  <input id="ac-22" name="accordion-2" type="radio">
-                  <label for="ac-22"><h1 class="txtTProducto">FUNDAS HOTELERAS CON BIES Y PIOLA</h1></label>
-                  <article class="ac-medium tableP">
-                    <table>
-                      <tr>
-                        <th></th>
-                        <th>FUNDA ESTANDAR BLANCA <br> .52 x .80 </th>
-                        <th>FUNDA QUEEN SIZE BLANCA <br> .52 x .90 </th>
-                        <th>FUNDA KING SIZE BLANCA <br> .52 x 1.10 </th>
-                      </tr>
-                      <tr>
-                        <td>150 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>180 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>200 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>300 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                    </table>
-                  </article>
+                    <input id="ac-22" name="accordion-1" type="radio">
+                    <label for="ac-22"><h1 class="txtTProducto">FUNDAS HOTELERAS CON BIES Y PIOLA</h1></label>
+                    <article class="ac-medium tableP">
+                      <table>
+                        <tr>
+                          <th></th>
+                          <th>FUNDA ESTANDAR BLANCA <br> .52 x .80 </th>
+                          <th>FUNDA QUEEN SIZE BLANCA <br> .52 x .90 </th>
+                          <th>FUNDA KING SIZE BLANCA <br> .52 x 1.10 </th>
+                        </tr>
+                        <tr>
+                          <td>150 HILOS</td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <td>180 HILOS</td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <td>200 HILOS</td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                        <tr>
+                          <td>300 HILOS</td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                          <td><img src="images/ok.png" alt="Producto Existente"></td>
+                        </tr>
+                      </table>
+                    </article>
                   </div>
                 </section>
                 <!--     TERMINA ACORDION       -->
               </div>
-            </div><!--TERMINA PROTECTOR DE CAMA-->
+            </div><!--TERMINA FUNDAS DE CAMA-->
             <div class="filterDiv rCama displayProducto"><!--INICIA PROTECTOR DE CAMA-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">PROTECTOR DE CAMA</h1>
                     <div class="cuadroDetails">
-                      <p>PROTECTOR DE COLCHON AHULADO CON TOALLIN Y RESORTE EN COLOR BLANCO. AHULADOS CON TOALLIN O FELPA CON RESORTE EN LAS CUATRO ESQUINAS. </p>
+                        <ul>
+                          <li>AHULADOS: CON TOALLIN O FELPA CON RESORTE EN LAS CUATRO ESQUINAS.</li>
+                          <li>CAPITONADO: CON DOBLE VISTA, EN FORMA DE CAJÓN.</li>
+                        </ul>
                       <table class="sTDetails">
                         <tr>
                           <th>INDIVIDUAL 1.10 X 1.90 </th>
@@ -729,27 +817,87 @@ $(document).ready(function() {
                   <h1 class="txtTProducto">COBERTORES</h1>
                     <div class="cuadroDetails">
                       <p>
-                        TENEMOS COBERTORES TERMICOS DE TELA POLAR FLANNEL ASI COMO DE ACRILAN Y LANA.
-                        MANEJAMOS TODAS LAS MEDIDAS Y PESOS QUE DESEE EN VARIOS COLORES.
-                         </p>
+                        LAS FRAZADAS O COBERTORES TÉRMICOS FUNCIONAN COMO COMPLEMENTOS PARA LA CAMA DENTRO DE LA HABITACIÓN, SON LIGEROS, MUY SUAVES, RESISTENTES Y CON GRAN PODER CALORÍFICO, ESTÁN HECHOS DE UNA MEZCLA DE FIBRAS DE TELA POLAR FLANNEL, ACRILÁN Y LANA. DISPONIBLE EN TODAS LAS MEDIDAS Y VARIOS COLORES.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
                   <img class="imagenAjustada" src="images/productos/cobertores.jpg">
                 </div>
               </div>
+                
             </div><!--TERMINA COBERTORES-->
+            <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA COBERTORES-->
+              <div class="details">
+                <!--     AGREGAR ACORDION OBERTORES      -->
+                <section class="ac-container">
+                  <div>
+                      <input id="ac-31" name="accordion-1" type="radio">
+                      <label for="ac-31"><h1 class="txtTProducto">COBERTOR</h1></label>
+                      <article class="ac-small tableP">
+                          <table>
+                            <tbody><tr>
+                              <th></th>
+                              <th>200 grs. </th>
+                              <th>300 grs. </th>
+                              <th>400 grs. </th>
+                            </tr>
+                            <tr>
+                              <td>120 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>                            
+                            <tr>
+                              <td>150 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>180 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>200 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>300 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>400 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                            <tr>
+                              <td>500 HILOS</td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                            </tr>
+                          </tbody></table>
+                      </article>
+                    </div>
+                </section>
+                <!--     TERMINA ACORDION COBERTOR      -->
+              </div>
+            </div>
             <div class="filterDiv rCama displayProducto"><!--INICIA EDREDONES-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">EDREDONES</h1>
                     <div class="cuadroDetails">
                       <p>
-                        HECHOS CON LA MAS ALTA CALIDAD EN TELAS LISAS Y ESTAMPADAS ASI COMO DIFERENTES ESPESORES
-                        QUE VAN DESDE 200 GRS. HASTA 400 GRS. CONTAMOS CON VARIEDAD DE TELAS COMO SON 50/50
-                        POLIESTER/ALGODÓN, 100% ALGODÓN Y MICROFIBRA 100% POLIESTER TACTO ALGODÓN
-                        (SE SIENTE COMO ALGODÓN EGIPCIO), ASI COMO DIFERENTES HILAJES QUE VAN DESDE 120 HILOS
-                        HASTA 500 HILOS. EN LAS MEDIDAS QUE USTED REQUIERA.
+                        DISEÑADOS CON LOS MEJORES MATERIALES PARA PROPORCIONAR UNA SENSACIÓN DE CONFORT INIGUALABLE, SON HIPOALERGÉNICOS Y NO GUARDAN OLORES, PUEDEN USARSE TODO EL TIEMPO DEBIDO A LA LIGEREZA DE SUS COMPONENTES, ES CÁLIDO EN TEMPORADA DE FRIO Y FRESCO EN VERANO. HECHOS EN COLORES DE COLORES LISOS O ESTAMPADAS 50% ALGODÓN, 50% POLIÉSTER O 100% ALGODÓN Y MICROFIBRA O 100% POLIÉSTER TACTO ALGODÓN DISPONIBLE EN CUALQUIER MEDIDA QUE SE REQUIERA.
                       </p>
                     </div>
                 </div>
@@ -758,6 +906,7 @@ $(document).ready(function() {
                 </div>
               </div>
             </div><!--TERMINA EDREDONES-->
+ <!-- MANTELES -->
             <!--TERMINA SECCION DE ROPA DE CAMA-->
             <div class="filterDiv rMesa tProIndv "><!--INICIA TITULO PRODUCTO-->
               <div class="card tCard">
@@ -768,7 +917,7 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">MESA Y MANTELERIA</h1>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rMesa displayProducto"><!--INICIA MANTELERIA-->
@@ -788,6 +937,7 @@ $(document).ready(function() {
               </div>
             </div><!--TERMINA MANTELERIA-->
             <!--TERMINA SECCION DE MESA UTILERIA-->
+<!-- DECORACION -->
             <div class="filterDiv rDecora tProIndv"><!--INICIA TITULO PRODUCTO-->
               <div class="card tCard">
                 <div class="imgBx">
@@ -797,7 +947,7 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">DECORACION</h1>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rDecora"><!--INICIA COJINES-->
@@ -844,7 +994,17 @@ $(document).ready(function() {
         <div class="lineDivisor">
           <img class="imgCuentas" src="images/line.png">
         </div>
-        <img class="imgCuentas" src="images/cuentas.png">
+        <div class='containerCuentas'>
+          <div class='area-g0'> <img src="images/cuentas/c1.png" alt=""> </div>
+          <div class='area-g1'> <img src="images/cuentas/c2.png" alt=""> </div>
+          <div class='area-g2'> <img src="images/cuentas/c3.png" alt=""> </div>
+          <div class='area-g3'> <img src="images/cuentas/c4.png" alt=""> </div>
+          <div class='area-g4'> <img src="images/cuentas/c5.png" alt=""> </div>
+          <div class='area-g5'> <img src="images/cuentas/c6.png" alt=""> </div>
+          <div class='area-g6'> <img src="images/cuentas/c7.png" alt=""> </div>
+          <div class='area-g7'> <img src="images/cuentas/c8.png" alt=""> </div>
+          <div class='area-g8'> <img src="images/cuentas/c9.png" alt=""> </div>
+        </div>
       </div>
       <div class="contacto">
         <div id="contact" class="ContMap">
