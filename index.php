@@ -3,201 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>MATHEWS HOME</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<style media="screen">
-.open {
-  left: 10px;
-  position: relative;
-  top: 10px;
-  width: 50px;
-  height: 50px;
-  display: block;
-  cursor: pointer;
-  transition: opacity 0.2s linear;
-}
-.open:hover {
-opacity: 0.8;
-}
-.open span {
-  display: block;
-  float: left;
-  clear: both;
-  height: 4px;
-  width: 40px;
-  border-radius: 40px;
-  background-color: #fff;
-  position: absolute;
-  right: 3px;
-  top: 3px;
-  overflow: hidden;
-  transition: all 0.4s ease;
-}
-.open span:nth-child(1) {
-margin-top: 10px;
-z-index: 9;
-}
-.open span:nth-child(2) {
-margin-top: 25px;
-}
-.open span:nth-child(3) {
-margin-top: 40px;
-}
-
-.sub-menu {
-transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-height: 0;
-width: 0;
-right: 0;
-top: 0;
-position: absolute;
-background-color: rgba(38, 84, 133, 0.54);
-border-radius: 50%;
-z-index: 18;
-overflow: hidden;
-}
-.sub-menu li {
-display: block;
-float: right;
-clear: both;
-height: auto;
-margin-right: -160px;
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.sub-menu li:first-child {
-margin-top: 180px;
-}
-.sub-menu li:nth-child(1) {
--webkit-transition-delay: 0.05s;
-}
-.sub-menu li:nth-child(2) {
--webkit-transition-delay: 0.10s;
-}
-.sub-menu li:nth-child(3) {
--webkit-transition-delay: 0.15s;
-}
-.sub-menu li:nth-child(4) {
--webkit-transition-delay: 0.20s;
-}
-.sub-menu li:nth-child(5) {
--webkit-transition-delay: 0.25s;
-}
-.sub-menu li a {
-color: #fff;
-font-family: 'Lato', Arial, Helvetica, sans-serif;
-font-size: 16px;
-width: 100%;
-display: block;
-float: left;
-line-height: 40px;
-}
-
-.oppenned .sub-menu {
-opacity: 1;
-height: 400px;
-width: 400px;
-}
-.oppenned span:nth-child(2) {
-overflow: visible;
-}
-.oppenned span:nth-child(1), .oppenned span:nth-child(3) {
-z-index: 100;
--webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-}
-.oppenned span:nth-child(1) {
--webkit-transform: rotate(45deg) translateY(12px) translateX(12px);
-        transform: rotate(45deg) translateY(12px) translateX(12px);
-}
-.oppenned span:nth-child(2) {
-  height: 395px;
-  width: 400px;
-  left: -100px;
-  top: -160px;
-border-radius: 50%;
-background-color: rgba(38, 84, 133, 0.54);
-}
-.oppenned span:nth-child(3) {
--webkit-transform: rotate(-45deg) translateY(-10px) translateX(10px);
-        transform: rotate(-45deg) translateY(-10px) translateX(10px);
-}
-.oppenned li {
-margin-right: 100px;
-}
-
-.button {
-display: block;
-float: left;
-clear: both;
-padding: 20px 40px;
-background: #fff;
-border-radius: 3px;
-border: 2px solid #10a1ea;
-overflow: hidden;
-position: relative;
-}
-.button:after {
-transition: -webkit-transform 0.3s ease;
-transition: transform 0.3s ease;
-transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-content: "";
-position: absolute;
-height: 200px;
-width: 400px;
--webkit-transform: rotate(45deg) translateX(-540px) translateY(-100px);
-        transform: rotate(45deg) translateX(-540px) translateY(-100px);
-background: #10a1ea;
-z-index: 1;
-}
-.button:before {
-transition: -webkit-transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-content: attr(title);
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-color: #fff;
-z-index: 2;
-text-align: center;
-padding: 20px 40px;
--webkit-transform: translateY(200px);
-        transform: translateY(200px);
-}
-.button:hover {
-text-decoration: none;
-}
-.button:hover:after {
--webkit-transform: translateX(-300px) translateY(-100px);
-        transform: translateX(-300px) translateY(-100px);
-}
-.button:hover:before {
--webkit-transform: translateY(0);
-        transform: translateY(0);
-}
-
-</style>
-
-<script type="text/javascript">
-$(document).ready(function() {
-		$(document).delegate('.open', 'click', function(event){
-			$(this).addClass('oppenned');
-			event.stopPropagation();
-		})
-		$(document).delegate('body', 'click', function(event) {
-			$('.open').removeClass('oppenned');
-		})
-		$(document).delegate('.cls', 'click', function(event){
-			$('.open').removeClass('oppenned');
-			event.stopPropagation();
-		});
-	});
-</script>
-
   </head>
   <a href="#">
     <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
@@ -207,7 +15,7 @@ $(document).ready(function() {
       <div class="contHeader colorSemiDegradado">
         <!--MENU MOBILE-->
       <div class="">
-        <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
+        <img class="logoResposive" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
         <div class="open">
           <span class="cls"></span>
           <span>
@@ -411,7 +219,12 @@ $(document).ready(function() {
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">BATA DE BAÑO</h1>
                     <div class="cuadroDetails">
-                      <p>MANEJAMOS BATAS PERSONALIZADAS YA ESEA ESTAMPADA O BORDADA UNITALLA Y UNISES.</p>
+                      <p>
+                        TODAS NUESTRAS BATAS OFRECEN CONFORT Y ELEGANCIA PARA SUS HUÉSPEDES, ESTÁN ELABORADAS CON FIBRAS 100%
+                        ALGODÓN PARA OFRECER UN SECADO SUAVE, LOS MODELOS DISPONIBLES SON UNITALLA E UNISEX. PUEDEN UTILIZARSE
+                        PARA HOTELES, CENTROS DE ESTÉTICA, SPA´S O BALNEARIOS.
+                        ADEMÁS SON PERSONALIZABLES CON ESTAMPADO O BORDADO Y TIENEN UNA EXCELENTE RESISTENCIA A LOS LAVADOS
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -424,7 +237,11 @@ $(document).ready(function() {
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">ALFOMBRA DE BAÑO</h1>
                     <div class="cuadroDetails">
-                      <p>TAPETE DE BAÑO EN MEDIDAS Y PESOS QUE REQUIDERA 100% ALGODÓN.</p>
+                      <p>
+                        LAS ALFOMBRAS DE BAÑO ESTÁN CONFECCIONADAS CON TEJIDOS DE 100% ALGODÓN Y/O POLIÉSTER-ALGODÓN,
+                        APORTANDO A SU ESPACIO CALIDAD Y BIENESTAR. ESTÁN DISPONIBLES EN MÚLTIPLES TAMAÑOS Y GRAMAJES.
+                        CONSÚLTENOS Y LE AYUDAREMOS A ENCONTRAR SU MEJOR OPCIÓN.
+                      </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
@@ -459,7 +276,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/almohada.jpg">
+                  <img class="imagenAjustada" src="images/productos/almohada.png">
                 </div>
               </div>
             </div><!--TERMINA ALMOHADAS-->
@@ -560,7 +377,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/sabana.jpg">
+                  <img class="imagenAjustada" src="images/productos/sabana.png">
                 </div>
               </div>
             </div><!--TERMINA PRODUCTO-->
@@ -918,7 +735,11 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">MESA Y MANTELERIA</h1>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                    EN ESTA SECCIÓN PODRÁ ENCONTRAR TODOS LOS PRODUCTOS DE ROPA DE MESA PARA HOTELERÍA,
+                    RESTAURANTES Y SALONES DE EVENTOS. DISPONEMOS DE UNA GRAN VARIEDAD DE MODELOS Y MATERIALES
+                    PARA QUE SU ESTABLECIMIENTO QUEDE PERFECTO EN CUALQUIER EVENTO; UNIENDO ESTILO Y COMODIDAD PARA SUS CLIENTES.
+
+                </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rMesa displayProducto"><!--INICIA MANTELERIA-->
@@ -927,8 +748,11 @@ $(document).ready(function() {
                   <h1 class="txtTProducto">MANTELERIA</h1>
                     <div class="cuadroDetails">
                       <p>
-                        MANEJAMOS TODAS LAS MEDIDAS EN TELA GRANITA, TAMPA, ALGODONES,EMCAKES U TERGALES CON BORDADOS Y
-                        FESTONES A SU GUSTO. ASI COMO SERVILLETAS, CUBREMANTELES, FORROS Y CINTAS PARA SILLA DE LA MISMA CALIDAD.
+                        ESTÁN CONFECCIONADOS CON LA MÁS ALTA CALIDAD, EN DIFERENTES ACABADOS Y DISEÑOS DE
+                        TELAS COMO SON: GRANITA, TAMPA, ALGODONES, EMCAKES Y TERGALES, CONVIRTIÉNDOSE EN LA
+                        BASE PERFECTA PARA UN BUENA DEGUSTACIÓN EN SU RESTAURANTE, HOTEL O SALÓN DE EVENTOS.
+                        PREPARADOS PARA SOPORTAR LOS LAVADOS FRECUENTES Y EL USO DIARIO. ADEMÁS,
+                        SON PERSONALIZABLES: PUEDE AÑADIR UN BORDADO Y FESTONES A SU GUSTO.
                       </p>
                     </div>
                 </div>
@@ -948,7 +772,11 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">DECORACION</h1>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                  CONTAMOS CON UNA GRAN VARIEDAD DE ARTÍCULOS TEXTILES PARA LA DECORACIÓN Y CONFORT DE
+                  SUS ESPACIOS O BIEN COMO PRODUCTOS PROMOCIONALES PARA EL RECONOCIMIENTO Y LEALTAD DE LOS CLIENTES.
+                  PODEMOS REALIZAR CUALQUIER PRODUCTO DE HOSTELERÍA QUE USTED REQUIERA CON LOS ACABADOS Y TEXTURAS
+                  NECESARIAS, HECHOS A LA MEDIDA.
+               </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rDecora"><!--INICIA COJINES-->
@@ -964,7 +792,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/cojin.jpg">
+                  <img class="imagenAjustada" src="images/productos/cojin.png">
                 </div>
               </div>
             </div><!--TERMINA COJINES-->
@@ -974,13 +802,17 @@ $(document).ready(function() {
                   <h1 class="txtTProducto">CORTINAS</h1>
                     <div class="cuadroDetails">
                       <p>
-                        CONTAMOS CON CORTINAS PARA BAÑO DE TELA CON REPELENTE.
-                        CORTINAS ANTIBACTERIALES PARA HOSPITALES HOETELERAS CON TERMATROL Y TERMALUM(BLACK OUT) TERMICAS IMPIDIENDO EL PASO DE LA LUZ EN 90%.
+                        CON LO QUE RESPECTA A LA FABRICACIÓN DE CORTINAS MANEJAMOS DIFERENTES
+                        TIPOS DE FIBRAS NATURALES (FINOS TERGALES, ALGODÓN, BAMBOO) Y TEJIDOS
+                        (RÚSTICOS Y CLÁSICO) ASÍ COMO SEGÚN LA ESPECIALIDAD LO REQUIERA,
+                        PODEMOS PROPORCIONARLE CORTINAS PARA BAÑO DE TELA REPELENTE, CORTINAS CON
+                        TRATAMIENTO ANTIBACTERIAL PARA HOSPITALES, CORTINAS TÉRMICAS PARA HOTELES
+                        TERMATROL Y TERMALUM (BLACKOUT) O CORTINAS RESIDENCIALES.
                       </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/cortinas.jpg">
+                  <img class="imagenAjustada" src="images/productos/cortinas.png">
                 </div>
               </div>
             </div><!--TERMINA CORTINAS-->
@@ -1009,32 +841,32 @@ $(document).ready(function() {
       </div>
       <div class="contacto">
         <div id="contact" class="ContMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d324.8730301736425!2d-99.23004359686047!3d19.528655621245807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21d2be199a943%3A0x80373bc2258b1ebe!2sMecanismo+Creativo+MX+S.A.+de+C.V.!5e0!3m2!1ses-419!2smx!4v1532994026054" width="99%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1902.2770481694465!2d-99.22282307502613!3d19.464689969858895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2025ac5c2123f%3A0x30fbb0389593a335!2sBlvd.+Toluca+22%2C+San+Francisco+Cuautlalpan%2C+53569+Naucalpan+de+Ju%C3%A1rez%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1534277353490" width="99%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="contForm">
           <!--INICIO DEL FORMULARIO-->
           <div class="cForm">
             <div class="contenedorFormBlue">
-    			  	<form action="/action_page.php">
+    			  	<form action="send.php" method="POST">
                 <div class="txtForm">
                   <div class="contFormCampo">
                     <div class="campoForm">
-                    <label class="lblForm" for="name"><b>*Nombre:</b></label>
-                        <input class="textField" type="text" placeholder="Escriba su nombre" id="nombre" name="name" required="Please">
+                    <label class="lblForm" for="nombre"><b>*Nombre:</b></label>
+                        <input class="textField" type="text" placeholder="Escriba su nombre" id="nombre" name="nombre" required="Please">
                     </div>
                     <div class="campoForm">
-                      <label class="lblForm" for="email"><b>*Email:</b></label>
-                          <input class="textField" type="email" placeholder="Enter Email" name="email" required="Please">
+                      <label class="lblForm" for="correo"><b>*Email:</b></label>
+                          <input class="textField" type="email" placeholder="Ingrese su correo electrónico" name="correo" required="Please">
                     </div>
                     <div class="campoForm">
                       <label class="lblForm" for="tel"><b>*Teléfono:</b></label>
-                      <input class="textField" type="tel" placeholder="Ingrese su Teléfono" name="phone" required="Please">
+                      <input class="textField" type="tel" placeholder="Ingrese su Teléfono" name="tel" required="Please">
                     </div>
                     <div class="campoForm">
                       <label class="lblForm" for="asunto"><b>Asunto:</b></label>
-                        <input class="textField" type="text" placeholder="Asunto del mensaje" name="phone" required="Please">
+                        <input class="textField" type="text" placeholder="Asunto del mensaje" name="asunto">
                     </div>
-                      <label class="lblForm" for="tel"><b>*Comentario:</b></label>
+                      <label class="lblForm" for="comentario"><b>*Comentario:</b></label>
                         <textarea class="txtArea txtComent" cols="30" rows="5" name="comentario" placeholder="Escriba su comentario o mensaje" required="Please"></textarea>
                   </div>
                   <div class="protectionInfo">
@@ -1053,10 +885,13 @@ $(document).ready(function() {
             <h1 class="tContacto">CONTACTO</h1>
             <div class="contTel">
               <p class="txtTel">
-                TEL: <br>(55)  57 61 29 55<br>(55) 57 09 84 96<br>(55) 53 57 40 89
-              </p>
-              <p class="txtTel">
+                TEL: <br>5761 2955 <br> 5357 4089
+              <br><br>
                 bsdtextiles@yahoo.com.mx<br>ventas@mathewshome.com.mx
+              <br> <br>
+                Blvd. Toluca 22 <br>
+                San Francisco Cuautlalpan <br>
+                53569 Naucalpan de Juárez, Méx.
               </p>
             </div>
           </div>
@@ -1085,12 +920,9 @@ $(document).ready(function() {
       </div>
     </footer>
     <!-- 	 -->
-    <script>
-
-</script>
-
-  <link rel="stylesheet" href="style/style.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/effects.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/effects.js" charset="utf-8"></script>
   </body>
 </html>
