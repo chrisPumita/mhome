@@ -169,7 +169,7 @@ p {
 
 .logoHeader{
   top: 20px;
-  width: 200px;
+  width: auto;
   height: 120px;
   position: relative;
   display: flex;
@@ -1132,10 +1132,9 @@ tr:nth-child(even){background-color: #f2f2f2}
 .mobile{
   display: none;
 }
-.open {
+.open, .logoFooter {
   display: none;
 }
-
 /* ++++++++++++++++++++++++++++++ RESPONSIVE +++++++++++
 PARA IPADS / TABLETAS      */
     /*TABLET HORIZONTAL*/
@@ -1492,6 +1491,13 @@ table {
 .containerCuentas {
       display: block !important;
     }
+    .logoFooter {
+        display: flex;
+        position: absolute;
+        width: 200px;
+        height: auto;
+        padding: 25%;
+    }
 }
 /*     media para pantalla pequeÃ±a y horizontal */
 @media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
@@ -1538,6 +1544,14 @@ table {
 #myBtnFilContainer {
     display: flex;
     font-size: 12px;
+}
+.logoFooter {
+  display: flex;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 0%;
+    right: 10%;
 }
 
 }

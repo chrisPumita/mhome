@@ -207,11 +207,12 @@ $(document).ready(function() {
       <div class="contHeader colorSemiDegradado">
         <!--MENU MOBILE-->
       <div class="">
+        <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
         <div class="open">
           <span class="cls"></span>
           <span>
         		<ul class="sub-menu ">
-              <li>                      <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
+              <li>
         			<li>
           			<p class="pMenu">MENU</p>
         			</li>
@@ -242,7 +243,6 @@ $(document).ready(function() {
         </div>
         <div class="circulo"></div>
       </div>
-
         <h1 class="titleHome">TRABAJAMOS</h1>
         <h2 class="SubTitleHome">A TU MEDIDA</h2>
         <a class="btnContactar" href="#contact"><button class="btnHome">CONTACTO</button></a>
@@ -255,10 +255,11 @@ $(document).ready(function() {
           <div id="nosotros" class="txtAbout">
             <h3 class="txtDer">¿QUIÈNES SOMOS?</h3>
             <p>
-              MATHEWS HOME dedicada a la fabricación de blancos en general, desde 1990 tenemos experiencia en el mercado brindando la máxima calidad en productos para el área HOTELERA, RESTAURANTERA, HOSPITALARIA Y DEL HOGAR, TIENDAS DEPARTAMENTALES, CLUBES DEPORTIVOS, ARTICULOS PROMOCIONALES, SPAS, SALAS DE BELLEZA, ECT. <br><br>
-              Vendemos telas, hacemos capitonados. Hacemos desde productos de línea hasta mercancías fabricadas especialmente desarrolladas por su ingenio. Como un servicio más ofrecemos bordados  e impresos personalizados en sus prendas. <br><br>
-              Los más importante, somos una gran familia laboral donde cada aérea cuenta con mano de obra especializada para que cada una de sus prendas sean hechas con el cuidado, dedicación y el confort que usted necesita.
-
+              MATHEWS HOME dedicada a la fabricación de blancos en general, desde 1990 tenemos experiencia en el mercado brindando
+              la máxima calidad en productos para el área HOTELERA, RESTAURANTERA, HOSPITALARIA Y DEL HOGAR, TIENDAS DEPARTAMENTALES,
+              CLUBES DEPORTIVOS, ARTICULOS PROMOCIONALES, SPAS, SALAS DE BELLEZA, ECT. <br><br>
+              Vendemos telas, hacemos capitonados. Fabricamos desde productos de línea hasta mercancías especialmente
+              desarrolladas por su ingenio, como un servicio más ofrecemos bordados e impresos personalizados en sus prendas.
           </p>
           </div>
           <div class="valoresAbout">
@@ -389,7 +390,7 @@ $(document).ready(function() {
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE BAÑO</h1>
-               EN MATHEWSHOME REUNIMOS DIFERENTES TEXTILES PARA HOTELERÍA, CARACTERIZADOS POR SUS MATERIALES QUE APORTAN SUAVIDAD Y TEXTURA PARA SATISFACER LAS NECESIDADES DE LOS HUÉSPEDES DE SPA, CENTRO DE BELLEZA U HOTELES. LA CALIDAD DE LOS PRODUCTOS QUE FABRICAMOS PERMITEN SER USADOS Y LAVADOS FRECUENTEMENTE SIN PERDER SUS CUALIDADES NI LA CAPACIDAD DE SECADO, ADEMA PODEMOS PERSONALIZARLOS PARA SU MARCA INCLUYENDO SU LOGOTIPO BORDADO.</div>
+               EN MATHEWSHOME REUNIMOS DIFERENTES TEXTILES PARA HOSTELERÍA, CARACTERIZADOS POR SUS MATERIALES QUE APORTAN SUAVIDAD Y TEXTURA PARA SATISFACER LAS NECESIDADES DE LOS HUÉSPEDES DE SPA, CENTRO DE BELLEZA U HOTELES. LA CALIDAD DE LOS PRODUCTOS QUE FABRICAMOS PERMITEN SER USADOS Y LAVADOS FRECUENTEMENTE SIN PERDER SUS CUALIDADES NI LA CAPACIDAD DE SECADO, ADEMA PODEMOS PERSONALIZARLOS PARA SU MARCA INCLUYENDO SU LOGOTIPO BORDADO.</div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
             <div class="filterDiv rBanio displayProducto"><!--INICIA TOALLAS-->
@@ -401,7 +402,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/toalla.jpg">
+                  <img class="imagenAjustada" src="images/productos/toallas.png">
                 </div>
               </div>
             </div><!--TERMINA TOALLAS-->
@@ -414,7 +415,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/bata1.jpg">
+                  <img class="imagenAjustada" src="images/productos/batas.png">
                 </div>
               </div>
             </div><!--TERMINA BATA DE BAÑO-->
@@ -493,7 +494,7 @@ $(document).ready(function() {
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td></td>
-                            </tr>                            
+                            </tr>
                             <tr>
                               <td>ECONÓMICA HOTELERA</td>
                               <td>DELCRON SILICONADO</td>
@@ -534,8 +535,8 @@ $(document).ready(function() {
                               <td></td>
                               <td></td>
                               <td></td>
-                              <td></td>
-                              <td></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
+                              <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                             </tr>
                           </tbody></table>
@@ -689,7 +690,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/fundas.jpg">
+                  <img class="imagenAjustada" src="images/productos/fundas.png">
                 </div>
               </div>
             </div><!--TERMINA FUNDAS-->
@@ -822,10 +823,10 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/cobertores.jpg">
+                  <img class="imagenAjustada" src="images/productos/cobertor.png">
                 </div>
               </div>
-                
+
             </div><!--TERMINA COBERTORES-->
             <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA COBERTORES-->
               <div class="details">
@@ -847,7 +848,7 @@ $(document).ready(function() {
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>                            
+                            </tr>
                             <tr>
                               <td>150 HILOS</td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
@@ -902,7 +903,7 @@ $(document).ready(function() {
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/edredones.jpg">
+                  <img class="imagenAjustada" src="images/productos/edredon.png">
                 </div>
               </div>
             </div><!--TERMINA EDREDONES-->
@@ -1089,7 +1090,6 @@ $(document).ready(function() {
 </script>
 
   <link rel="stylesheet" href="style/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/effects.js" charset="utf-8"></script>
   </body>

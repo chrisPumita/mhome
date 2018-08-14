@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MATHEWS HOME... PROXIMAMENTE</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="beta/style/style.css">
+    <style media="screen">
+    .contMenus {
+      position: relative;
+      left: 10%;
+      width: fit-content;
+      height: 100%;
+      background-color: white;
+    }
+    .SubTitleHome {
+          top: 60%;
+          right: 30%;
+          display: block;
+          position: absolute;
+          color: var(--whitteSolid);
+          font-size: 2em;
+      }
+      .titleHome {
+          top: 25%;
+          right: 10%;
+          display: block;
+          position: absolute;
+          color: var(--whitteSolid);
+          font-size: 6em;
+      }
+
+      li{
+      	    list-style: none;
+      	}
+
+
+    @media (max-width: 1024px) and (min-width: 861px){
+        .contMenus {
+          left: 0%;
+        }
+
+        .titleHome {
+            font-size: 5em;
+        }
+
+        .SubTitleHome {
+            top: 45%;
+            right: 20%;
+            font-size: 2em;
+        }
+      }
+
+      @media (max-width: 860px) and (min-width: 470px){
+        .contMenus {
+            left: 0%;
+        }
+        .titleHome {
+          right: 5%;
+          font-size: 4em;
+      }
+      .SubTitleHome {
+            top: 97%;
+            right: 32%;
+            color: var(--blue1);
+            font-size: 2em;
+        }
+      }
+      /*Portatil de forma vertical */
+@media screen and (max-width:740px), and (orientation: portrait){
+  .titleHome {
+      top: 25%;
+      right: 0%;
+      font-size: 3em;
+  }
+  .SubTitleHome {
+      top: 29%;
+      right: 0%;
+      position: relative;
+      font-size: 1.2em;
+      text-align: center;
+  }
+@media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
+    .SubTitleHome {
+      top: 10%;
+      color: var(--blue2);
+      right: 0%;
+      position: relative;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="contHeader colorSemiDegradado">
+        <!--MENU MOBILE-->
+      <div class="">
+        <div class="open">
+          <span class="cls"></span>
+          <span>
+        		<ul class="sub-menu ">
+              <li><img class="logoFooter" src="Logo_mathews.png" alt="Logo de Mathews Home"></li>
+        		</ul>
+        	</span>
+          <span class="cls"></span>
+        </div>
+      </div>
+        <!--MENU MOBILE-->
+      <div class="contMenus desktop">
+        <div id="navbar1">
+          <div class="contLogo">
+            <img class="logoHeader animatedLogo zoomInDown" src="Logo_mathews.png" alt="Logo de Mathews Home">
+          </div>
+        </div>
+        <div class="circulo"></div>
+      </div>
+        <h1 class="titleHome">PROXIMAMENTE...</h1>
+        <h2 class="SubTitleHome">TEL: <br>
+          (55) 57 61 29 55 <br>
+          (55) 57 09 84 96 <br>
+          (55) 53 57 40 89 <br><br>
+
+          bsdtextiles@yahoo.com.mx <br>
+          ventas@mathewshome.com.mx</li></h2>
+      </div>
+    </header>
+  </body>
+</html>
