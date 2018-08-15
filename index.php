@@ -15,7 +15,7 @@
       <div class="contHeader colorSemiDegradado">
         <!--MENU MOBILE-->
       <div class="">
-        <img class="logoResposive" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home"></li>
+        <img class="logoResposive" src="images/Logo_mathews.png" alt="Logo de Mathews Home"></li>
         <div class="open">
           <span class="cls"></span>
           <span>
@@ -245,7 +245,7 @@
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/alfombra.jpg">
+                  <img class="imagenAjustada" src="images/productos/noImage.png">
                 </div>
               </div>
             </div><!--TERMINA ALFOMBRA DE BAÑO-->
@@ -625,7 +625,7 @@
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/protector.jpg">
+                  <img class="imagenAjustada" src="images/productos/protector.png">
                 </div>
               </div>
             </div><!--TERMINA PROTECTOR DE CAMA-->
@@ -757,7 +757,7 @@
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/mantel.jpg">
+                  <img class="imagenAjustada" src="images/productos/noImage.png">
                 </div>
               </div>
             </div><!--TERMINA MANTELERIA-->
@@ -779,23 +779,6 @@
                </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rDecora"><!--INICIA COJINES-->
-              <div class="details">
-                <div class="imgProdcutoBOX">
-                  <h1 class="txtTProducto">COJINES</h1>
-                    <div class="cuadroDetails">
-                      <p>
-                        REALIZAMOS TODO TIPO DE COJINES DECORATIVOS EN LAS MEDIDAS Y PESOS QUE USTED
-                        REQUIERA EN TELAS LISAS Y ESTAMPADAS, CON RELLENOS DE FIBRA SINTETICA SILICONIZADA,
-                        ASI COMO COJINES DE VIAJE DE ESPUMA VISCOELASTICA (TIPO MEMORY FOAM).
-                      </p>
-                    </div>
-                </div>
-                <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/cojin.png">
-                </div>
-              </div>
-            </div><!--TERMINA COJINES-->
             <div class="filterDiv rDecora"><!--INICIA CORTINAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
@@ -816,6 +799,24 @@
                 </div>
               </div>
             </div><!--TERMINA CORTINAS-->
+            <div class="filterDiv rDecora"><!--INICIA COJINES-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">COJINES</h1>
+                    <div class="cuadroDetails">
+                      <p>
+                        REALIZAMOS TODO TIPO DE COJINES DECORATIVOS EN LAS MEDIDAS Y PESOS QUE USTED
+                        REQUIERA EN TELAS LISAS Y ESTAMPADAS, CON RELLENOS DE FIBRA SINTETICA SILICONIZADA,
+                        ASI COMO COJINES DE VIAJE DE ESPUMA VISCOELASTICA (TIPO MEMORY FOAM).
+                      </p>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/cojin.png">
+                </div>
+              </div>
+            </div><!--TERMINA COJINES-->
+
 
     			</div> <!--TERMINA CONTENEDOR-->
     		</div>
@@ -871,7 +872,10 @@
                   </div>
                   <div class="protectionInfo">
                     <p class="formLink">*Campo Obligatorio. Sus datos estan protegidos. Porfavor lea nuestro
-                    <ins><a href="#"> Aviso de Privacidad</a></ins>.
+                    <ins>
+                      <a class="avisoFormat" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+                          						Aviso de Privacidad</a>
+                    </ins>.
                     </p>
                     <div>
                       <button class="button" style="vertical-align:middle;"><span>Enviar</span></button>
@@ -886,12 +890,9 @@
             <div class="contTel">
               <p class="txtTel">
                 TEL: <br>5761 2955 <br> 5357 4089
-              <br><br>
-                bsdtextiles@yahoo.com.mx<br>ventas@mathewshome.com.mx
-              <br> <br>
-                Blvd. Toluca 22 <br>
-                San Francisco Cuautlalpan <br>
-                53569 Naucalpan de Juárez, Méx.
+              </p>
+              <p class="txtCorreo">
+                ventas@mathewshome.com.mx
               </p>
             </div>
           </div>
@@ -911,14 +912,199 @@
             <img class="logoRed" src="images/linkedin.png" alt="Logo de linkedin">
           </div>
           <div class="ContPrivacidad">
-            <p class="txtP">Aviso de Privacidad</p>
+              <p class="txtP">
+                <a class="avisoFormat" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+      						Aviso de Privacidad
+      					</a>
+              </p>
             <p class="txtP">© 2018 Mathews Home. Derechos Reservados.</p>
           </div>
-
         </div>
-
       </div>
     </footer>
+
+    <!-- 	 -->
+    <!-- The Modal Politicy -->
+    <div id="id01" class="modal">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+        <!-- ModalPhotoVirtual content -->
+        <div class="aviso">
+          <p class="tittle">AVISO DE PRIVACIDAD</p>
+
+          <div class="aviso-content">
+            <h1>DESCRIPCIÓN DEL AVISO</h1>
+            <p>En Mathews Home S.A. de C.V. contamos con domicilio en
+              Blvd. Toluca 22 San Francisco Cuautlalpan 53569 Naucalpan de Juárez, Méx.
+              es responsable del tratamiento de sus datos personales. Hacemos de su conocimiento que no solicitamos ni hacemos uso de datos personales sensibles.
+              Los términos que se utilicen en el presente aviso, tendrán la definición que a los mismos le asigna la Ley Federal de Protección de Datos Personales
+              en Posesión de Particulares.</p>
+          </div>
+
+          <div class="aviso-content">
+            <h1>DATOS PERSONALES QUE RECABAMOS</h1>
+            <p>Los datos personales que podemos llegar a recabar por la relación comercial que se lleva acabo se mantendrán como privados
+              y solo solicitaremos información necesaria para llevar a cabo los requerimientos solicitados por los clientes;
+              dentro los que encuentran: Nombres, Apellidos, Domicilios, teléfonos, correos electrónicos, fecha de nacimiento,
+              información bancaria, Intereses sobre los productos, clave de Registro Federal de Contribuyentes, Información de
+              formas de pago y toda aquella información que el usuario nos proporcione a lo largo de la relación contractual o
+              comercial que se establezca.</p>
+          </div>
+
+          <div class="aviso-content">
+            <h1><span style="display: inline-block;transform: rotate(180deg);">?</span>CON QUE FINALIDAD RECABAMOS LOS DATOS?</h1>
+            <p>Los datos personales podrán ser tratados y utilizados por nosotros y nuestras filiales o subsidiarias nacionales e
+              Internacionales para llevar a cabo algunas o todas las actividades relacionadas con el cumplimiento de las obligaciones
+              que deriven de la relación comercial que se originen y deriven de la prestación de servicios o venta de productos;
+              con el propósito de informar a los clientes del lanzamiento de nuevos productos, servicios, promociones y ofertas
+              de nosotros o terceros, realizar estudios de mercado, así como cualquier otra actividad tendiente a promover y mejorar
+              los servicios. La transferencia de los datos personales del usuario se encuentra limitada a aquellos actos, hechos
+              y/o procedimientos que se requieran implementar a efecto de estar en posibilidad de cumplir con las obligaciones
+              contractuales, regulatorias y comerciales en el curso ordinario de las operaciones. Si el usuario no manifiesta
+              su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.</p>
+          </div>
+
+
+          <div class="aviso-content">
+            <h1>MEDIOS PARA EJERCER LOS DERECHOS (A.R.C.O)</h1>
+            <p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario
+              tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación,
+              cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: ventas@mathewshome.com.mx
+              o comunicándose vía telefónica al 01 (55) 5761 2955 y 01 (55) 5357 4089, donde con gusto lo atenderemos.</p>
+            <p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre
+              nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Mathews Home S.A. de C.V.
+              que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento
+              de Atención al Cliente.</p>
+          </div>
+
+
+          <div class="aviso-content" style="border:none">
+            <h1>MODIFICACIONES AL AVISO DE PRIVACIDAD</h1>
+            <p>Nos reservamos el derecho de efectuar en cualquier momento, cambios o modificaciones al presente aviso de privacidad, para la atención de novedades legislativas o jurisprudenciales, políticas internas, nuevos requerimientos para el ofrecimiento de nuestros productos y mejores prácticas en el servicio. Estas modificaciones estarán disponibles al público a través de los siguientes medios:</p>
+            <p>• En nuestra página de internet www.mathewshome.com.mx</p>
+            <p>• Mediante anuncios visibles en nuestras instalaciones</p>
+            <p>• Vía mail al correo electrónico que nos proporcionó</p>
+            <p>En la medida que el usuario no solicite, en los términos antes mencionados, la cancelación y/u oposición de sus información y continúe accediendo y/o utilizando, parcial o totalmente, los servicios, implicará que ha aceptado y consentido tales cambios y modificaciones. Al proporcionarnos sus datos personales, expresa, reconoce y acepta el presente Aviso, según el mismo pueda ser modificado en tiempo, y otorga su consentimiento para procesar sus datos personales de la forma que se explica en el presente. Si no está de acuerdo o acepta este aviso, no deberá proporcionar ninguna información, ni utilizar los servicios que le ofrecemos.</p>
+            <p style="text-align: right">FECHA DE ACTUALIZACIÓN: 15-AGOSTO-2018</p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<style>
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 90%;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+
+
     <!-- 	 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style/style.css">

@@ -24,7 +24,7 @@
     background: rgba(143,143,143,0.3);
     background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,0.3)), color-stop(25%, rgba(0,0,0,0.37)), color-stop(66%, rgba(0,0,0,0.47)), color-stop(100%, rgba(31,31,31,0.56)));
-    background: -webkit-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
+    background: -webkit-linear-gradient(top, rgba(143, 143, 143, 0.15) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.22) 66%, rgba(31, 31, 31, 0.47) 100%);
     background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
     background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
 }
@@ -901,8 +901,15 @@ display: flex;
 }
 .txtTel{
   padding: 5%;
+  font-size: 3em;
+  line-height: 70px;
+  text-align: center;
+  color: var(--blue1);
+  font-family: var(--font2);
+}
+.txtCorreo{
   font-size: 1.5em;
-  line-height: 30px;
+  line-height: 70px;
   text-align: center;
   color: var(--blue1);
   font-family: var(--font2);
@@ -1548,6 +1555,9 @@ p {
   padding-left: 5%;
   padding-right: 5%;
 }
+.txtCorreo {
+    font-size: 120%;
+}
 .txtDer {
     text-align: center;
 }
@@ -1567,8 +1577,10 @@ h3 {
   }
 
 .container {
-    margin-top: 5px;
-    margin-bottom: 5%;
+  margin-top: 5px;
+  margin-bottom: 5%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .imgBoxProducto, .imgProdcutoBOX {
     width: 100%;
@@ -1626,8 +1638,8 @@ table {
       width: 100%;
   }
   .txtTel {
-      font-size: 1em;
-      line-height:em7px;
+    font-size: 3em;
+    line-height: 50px;
   }
 
   .campoForm {
@@ -1679,11 +1691,12 @@ table {
       display: block !important;
     }
     .logoResposive {
-        display: flex;
-        position: absolute;
-        width: 200px;
-        height: auto;
-        padding: 25%;
+      display: flex;
+      position: absolute;
+      width: 200px;
+      height: auto;
+      padding: 0;
+      padding-left: 22%;
     }
 }
 /*     media para pantalla pequeÃ±a y horizontal */
@@ -1796,4 +1809,20 @@ table {
 .area-g8 {
     grid-area: g8;
     text-align: center;
+}
+
+/*PRIVACIDAD*/
+.avisoFormat{
+  cursor: pointer;
+}
+
+.aviso{
+  width: 90%;
+  height: auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: var(--blue1);
+  color: #fff;
 }
