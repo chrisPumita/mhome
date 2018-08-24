@@ -6,6 +6,11 @@
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<style media="screen">
+
+
+</style>
+
   </head>
   <a href="#">
     <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
@@ -287,8 +292,10 @@
                 <section class="ac-container">
                   <div>
                       <input id="ac-41" name="accordion-1" type="radio">
-                      <label for="ac-41"><h1 class="txtTProducto">ALMOHADAS</h1></label>
+                      <label for="ac-41">
+                        <h1 class="txtTProducto">ALMOHADAS</h1></label>
                       <article class="ac-small tableP">
+                        <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
                             <tbody><tr>
                               <th></th>
@@ -388,8 +395,10 @@
                   <div>
                 <!--      <input id="ac-1" name="accordion-1" type="radio" checked="">-->
                       <input id="ac-1" name="accordion-1" type="radio">
+
                       <label for="ac-1"><h1 class="txtTProducto">SABANAS HOTELEAS PLANAS O DE CAJON</h1></label>
                       <article class="ac-small tableP">
+                        <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
                             <tr>
                               <th></th>
@@ -443,6 +452,7 @@
                   <input id="ac-2" name="accordion-1" type="radio">
                   <label for="ac-2"><h1 class="txtTProducto">SABANA HOTELERA PLANAS O DE CAJON CON BIES Y PIOLA</h1></label>
                   <article class="ac-medium tableP">
+                    <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                     <table>
                       <tr>
                         <th></th>
@@ -519,6 +529,7 @@
                       <input id="ac-21" name="accordion-1" type="radio">
                       <label for="ac-21"><h1 class="txtTProducto">FUNDAS HOTELERAS</h1></label>
                       <article class="ac-small tableP">
+                        <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
                             <tr>
                               <th></th>
@@ -557,6 +568,7 @@
                     <input id="ac-22" name="accordion-1" type="radio">
                     <label for="ac-22"><h1 class="txtTProducto">FUNDAS HOTELERAS CON BIES Y PIOLA</h1></label>
                     <article class="ac-medium tableP">
+                      <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                       <table>
                         <tr>
                           <th></th>
@@ -829,15 +841,15 @@
           <img class="imgCuentas" src="images/line.png">
         </div>
         <div class='containerCuentas'>
-          <div class='area-g0'> <img src="images/cuentas/c1.png" alt=""> </div>
-          <div class='area-g1'> <img src="images/cuentas/c2.png" alt=""> </div>
-          <div class='area-g2'> <img src="images/cuentas/c3.png" alt=""> </div>
-          <div class='area-g3'> <img src="images/cuentas/c4.png" alt=""> </div>
-          <div class='area-g4'> <img src="images/cuentas/c5.png" alt=""> </div>
-          <div class='area-g5'> <img src="images/cuentas/c6.png" alt=""> </div>
-          <div class='area-g6'> <img src="images/cuentas/c7.png" alt=""> </div>
-          <div class='area-g7'> <img src="images/cuentas/c8.png" alt=""> </div>
-          <div class='area-g8'> <img src="images/cuentas/c9.png" alt=""> </div>
+          <div class='area-g0'> <img class="imgCuenta" src="images/cuentas/c1.png" alt=""> </div>
+          <div class='area-g1'> <img class="imgCuenta" src="images/cuentas/c2.png" alt=""> </div>
+          <div class='area-g2'> <img class="imgCuenta" src="images/cuentas/c3.png" alt=""> </div>
+          <div class='area-g3'> <img class="imgCuenta" src="images/cuentas/c4.png" alt=""> </div>
+          <div class='area-g4'> <img class="imgCuenta" src="images/cuentas/c5.png" alt=""> </div>
+          <div class='area-g5'> <img class="imgCuenta" src="images/cuentas/c6.png" alt=""> </div>
+          <div class='area-g6'> <img class="imgCuenta" src="images/cuentas/c7.png" alt=""> </div>
+          <div class='area-g7'> <img class="imgCuenta" src="images/cuentas/c8.png" alt=""> </div>
+          <div class='area-g8'> <img class="imgCuenta" src="images/cuentas/c9.png" alt=""> </div>
         </div>
       </div>
       <div class="contacto">
