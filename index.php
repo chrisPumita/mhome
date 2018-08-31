@@ -6,10 +6,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<style media="screen">
-
-
-</style>
+    <!-- 	 -->
+    <link rel="stylesheet" href="style/style.css">
 
   </head>
   <a href="#">
@@ -36,7 +34,7 @@
         				  <a href="#PRODUCTS">PRODUCTOS</a>
         			</li>
         			<li>
-        			  <a href="#contact">CONTACTO</a>
+        			  <a href="#contacto">CONTACTO</a>
         			</li>
         		</ul>
         	</span>
@@ -52,7 +50,7 @@
           <p class="pMenu">MENU</p>
           <a href="#nosotros">¿QUIÉNES SOMOS?</a>
           <a href="#PRODUCTS">PRODUCTOS</a>
-          <a href="#contact">CONTACTO</a>
+          <a href="#contacto">CONTACTO</a>
         </div>
         <div class="circulo"></div>
       </div>
@@ -266,34 +264,35 @@
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE CAMA</h1>
                   TENEMOS TODOS LOS BLANCOS NECESARIOS PARA VESTIR LOS CUARTOS DE HOTEL, SUITES, SPAS, GRAN TURISMO, DIAMANTES, BOUTIQUES, ETC. <br>
-                  OFRECEMOS UNA GRAN VARIEDAD DE TERMINADOS Y TELAS DE CALIDAD INTERNACIONAL CON LA MEJOR SUAVIDAD Y DURABILIDAD, QUE VAN DESDE LOS 150 HASTA 300 HILOS EN POLIÉSTER O ALGODÓN.
+                  OFRECEMOS UNA GRAN VARIEDAD DE TERMINADOS Y TELAS DE CALIDAD INTERNACIONAL CON LA MEJOR SUAVIDAD Y DURABILIDAD.
                 </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
-            <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADAS-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADA HOTELERA-->
               <div class="details">
                 <div class="imgProdcutoBOX">
-                  <h1 class="txtTProducto">ALMOHADAS</h1>
+                  <h1 class="txtTProducto">ALMOHADA HOTELERA</h1>
                     <div class="cuadroDetails">
                       <p>
-                        COMO COMPLEMENTO DE LOS PRODUCTOS PARA EL DESCANSO, OFRECEMOS DIFERENTES TIPOS DE ALMOHADAS Y PODEMOS HACERLAS DE LA MEDIDA Y PESO QUE USTED REQUIERA.
+                        COMO COMPLEMENTO DE LOS PRODUCTOS PARA EL DESCANSO, OFRECEMOS DIFERENTES TIPOS DE ALMOHADAS Y
+                        PODEMOS HACERLAS DE LA MEDIDA Y PESO QUE USTED REQUIERA.
                       </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/almohada.png">
+                  <img class="imagenAjustada" src="images/productos/almohadahotelera.jpg">
                 </div>
               </div>
-            </div><!--TERMINA ALMOHADAS-->
+            </div><!--TERMINA ALMOHADA HOTELERA-->
 
-            <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA COBERTORES-->
+            <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA DESC ALMOHADAS-->
               <div class="details">
                 <!--     AGREGAR ACORDION OBERTORES      -->
                 <section class="ac-container">
                   <div>
                       <input id="ac-41" name="accordion-1" type="radio">
                       <label for="ac-41">
-                        <h1 class="txtTProducto">ALMOHADAS</h1></label>
+                        <h1 class="txtTProducto">ESPECIFICACIONES</h1></label>
                       <article class="ac-small tableP">
                         <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
@@ -306,7 +305,6 @@
                               <th>PESO (g)</th>
                               <th>HIPOALERGÉNICA</th>
                               <th>ANTIÁCAROS</th>
-                              <th>VIAJERA ORTOPEDICA</th>
                             </tr>
                             <tr>
                               <td>ECONÓMICA</td>
@@ -317,7 +315,6 @@
                               <td>500</td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td></td>
                             </tr>
                             <tr>
                               <td>ECONÓMICA HOTELERA</td>
@@ -328,7 +325,6 @@
                               <td>700</td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td></td>
                             </tr>
                             <tr>
                               <td>HOTELERA</td>
@@ -337,29 +333,6 @@
                               <td>.90 X .50</td>
                               <td>150</td>
                               <td>900</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>HALOM</td>
-                              <td>DOWN ALTERNATIVE (TIPO PLUMA DE GANSO)</td>
-                              <td>TELA DOWN PROF O ANTI PLUMA 100%ALGODÓN</td>
-                              <td>.68 X .47</td>
-                              <td>HASTA 300</td>
-                              <td></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>VISCO ELÁSTICAS (TIPO MEMORY FORM)</td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                               <td><img src="images/ok.png" alt="Producto Existente"></td>
                             </tr>
@@ -371,6 +344,40 @@
               </div>
             </div>
 
+            <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADA HALOM-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">ALMOHADA HALOM</h1>
+                    <div class="cuadroDetails">
+                      <p>
+                        ALMOHADA DE TECNOLOGÍA ISRAELÍ, HIPOALERGENICA, ANTIACAROS CON RELLENO DE SUAVES
+                        Y FINAS  FIBRAS DOWN ALTERNATIVE CON ESPITAS DE AIRE, CUBIERTA CON FUNDA 100 % ALGODÓN.
+                        SE ADECUA A LA VARIACIÓN DE POSICIÓN DEL CUERPO DANDO EL SOSTÉN Y CONFORT, PARA TU DESCANSO.
+                      </p>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/almohadahalom.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA ALMOHADA HALOM-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA ALMOHADA VISCO ELÁSTICAS (TIPO MEMORY FORM)-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto uniqueFont">ALMOHADA VISCO ELÁSTICAS (TIPO MEMORY FORM)</h1>
+                    <div class="cuadroDetails">
+                      <p>
+                        ALMOHADA DE MEMORIA, HIPOALERGENICA, ANTIACAROS HECHA DE ESPUMA DE ALTA DENSIDAD, DISTRIBUYE
+                        PERFECTAMENTE LA PRESIÓN AL MOLDEARSE CON LA FORMA DE TU CABEZA PARA LOGRAR UN CONFORT TOTAL,
+                        YA NO TENDRAS DOLORES DE CUELLO O ESPALDA RELACIONADOS CON LA POSICIÓN AL DORMIR.
+                      </p>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/almohadamemory.jpg">
+                </div>
+              </div>
+            </div><!--TERMINA ALMOHADA VISCO ELÁSTICAS (TIPO MEMORY FORM)-->
 
             <div class="filterDiv rCama displayProducto">
               <!--INICIA SABANAS-->
@@ -379,7 +386,9 @@
                   <h1 class="txtTProducto">SÁBANAS</h1>
                     <div class="cuadroDetails">
                     <!--COMIENZA SABANAS ESPECIFICO HILOS-->
-                    HACEMOS SABANAS CON BIES, BIES Y PIOLA Y FESTON BORDADO. EN LAS MEDIDAS QUE USTED REQUIERA. PARA LA EPOCA INVERNAL CONTAMOS CON SABANAS DE TELA DE FRANELA Y POLAR FLEECE.
+                    <p>
+                      HACEMOS SÁBANAS; SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA Y FESTON BORDADO EN LAS MEDIDAS QUE USTED REQUIERA.
+                    </p>
                       <!--TERMINA PRODUCTO ESPECIFICO HILOS-->
                     </div>
                 </div>
@@ -396,15 +405,15 @@
                 <!--      <input id="ac-1" name="accordion-1" type="radio" checked="">-->
                       <input id="ac-1" name="accordion-1" type="radio">
 
-                      <label for="ac-1"><h1 class="txtTProducto">SABANAS HOTELEAS PLANAS O DE CAJON</h1></label>
+                      <label for="ac-1"><h1 class="txtTProducto">ESPECIFICACIONES</h1></label>
                       <article class="ac-small tableP">
                         <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
                             <tr>
                               <th></th>
                               <th>INDIVIDUAL <br>1.80 X 2.80 MTS</th>
-                              <th>MATRIMONIAL <br>2.00 X 2.80 MTS </th>
-                              <th>QUEEN SIZE <br>2.00 X 2.80 MTS</th>
+                              <th>MATRIMONIAL <br>2.20 X 2.80 MTS </th>
+                              <th>QUEEN SIZE <br>2.40 X 2.80 MTS</th>
                               <th>KING SIZE <br>2.80 X 2.80 MTS </th>
                               <th>KING SIZE <br>3.00 X 2.80 MTS </th>
                               <th>KING SIZE <br>3.200 X 2.80 MTS </th>
@@ -448,71 +457,34 @@
                           </table>
                       </article>
                     </div>
-                  <div>
-                  <input id="ac-2" name="accordion-1" type="radio">
-                  <label for="ac-2"><h1 class="txtTProducto">SABANA HOTELERA PLANAS O DE CAJON CON BIES Y PIOLA</h1></label>
-                  <article class="ac-medium tableP">
-                    <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
-                    <table>
-                      <tr>
-                        <th></th>
-                        <th>INDIVIDUAL <br>1.80 X 2.80 MTS</th>
-                        <th>MATRIMONIAL <br>2.00 X 2.80 MTS </th>
-                        <th>QUEEN SIZE <br>2.00 X 2.80 MTS</th>
-                        <th>KING SIZE <br>2.80 X 2.80 MTS </th>
-                        <th>KING SIZE <br>3.00 X 2.80 MTS </th>
-                        <th>KING SIZE <br>3.200 X 2.80 MTS </th>
-                      </tr>
-                      <tr>
-                        <td>150 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>180 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>200 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                      <tr>
-                        <td>300 HILOS</td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        <td><img src="images/ok.png" alt="Producto Existente"></td>
-                      </tr>
-                    </table>
-                  </article>
-                  </div>
                 </section>
                 <!--     TERMINA ACORDION       -->
               </div>
-            </div><!--TERMINA FUNDAS-->
+            </div><!--TERMINA SANABAS-->
+            <div class="filterDiv rCama displayProducto"><!--INICIA SABANA INVERNAL-->
+              <div class="details">
+                <div class="imgProdcutoBOX">
+                  <h1 class="txtTProducto">SÁBANA INVERNAL</h1>
+                    <div class="cuadroDetails">
+                      <p>
+                        PARA LA EPOCA INVERNAL CONTAMOS CON SABANAS DE TELA DE FRANELA Y POLAR FLEECE.
+                      </p>
+                    </div>
+                </div>
+                <div class="imgBoxProducto">
+                  <img class="imagenAjustada" src="images/productos/cobertorInvierno.png">
+                </div>
+              </div>
+            </div><!--TERMINA SABANA INVERNAL-->
             <div class="filterDiv rCama displayProducto"><!--INICIA FUNDAS-->
               <div class="details">
                 <div class="imgProdcutoBOX">
                   <h1 class="txtTProducto">FUNDAS</h1>
                     <div class="cuadroDetails">
                       <p>
-                        EL CONJUNTO DE PRODUCTOS PARA VESTIR LA CAMA NO SOLO DEBEN DE LUCIR BIEN, SINO QUE ADEMÁS DEBEN SER CÓMODAS PARA AYUDAR A DORMIR MEJOR, POR LO CUAL EL TIPO DE FUNDAS QUE ESCOJA SERÁ CLAVE PARA EL DESCANSO.
+                        EL CONJUNTO DE PRODUCTOS PARA VESTIR LA CAMA NO SOLO DEBEN DE LUCIR BIEN,
+                        SINO QUE ADEMÁS DEBEN SER CÓMODAS PARA AYUDAR A DORMIR MEJOR, POR LO CUAL
+                        EL TIPO DE FUNDAS QUE ESCOJA SERÁ CLAVE PARA EL DESCANSO. HACEMOS FUNDAS; SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA.
                       </p>
                     </div>
                 </div>
@@ -527,7 +499,7 @@
                 <section class="ac-container">
                   <div>
                       <input id="ac-21" name="accordion-1" type="radio">
-                      <label for="ac-21"><h1 class="txtTProducto">FUNDAS HOTELERAS</h1></label>
+                      <label for="ac-21"><h1 class="txtTProducto">ESPECIFICACIONES</h1></label>
                       <article class="ac-small tableP">
                         <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
                           <table>
@@ -564,45 +536,6 @@
                           </table>
                       </article>
                     </div>
-                  <div>
-                    <input id="ac-22" name="accordion-1" type="radio">
-                    <label for="ac-22"><h1 class="txtTProducto">FUNDAS HOTELERAS CON BIES Y PIOLA</h1></label>
-                    <article class="ac-medium tableP">
-                      <div class="moveDiv"><img class="imgMove" src="images/move.gif" alt=""> </div>
-                      <table>
-                        <tr>
-                          <th></th>
-                          <th>FUNDA ESTANDAR BLANCA <br> .52 x .80 </th>
-                          <th>FUNDA QUEEN SIZE BLANCA <br> .52 x .90 </th>
-                          <th>FUNDA KING SIZE BLANCA <br> .52 x 1.10 </th>
-                        </tr>
-                        <tr>
-                          <td>150 HILOS</td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        </tr>
-                        <tr>
-                          <td>180 HILOS</td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        </tr>
-                        <tr>
-                          <td>200 HILOS</td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        </tr>
-                        <tr>
-                          <td>300 HILOS</td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                          <td><img src="images/ok.png" alt="Producto Existente"></td>
-                        </tr>
-                      </table>
-                    </article>
-                  </div>
                 </section>
                 <!--     TERMINA ACORDION       -->
               </div>
@@ -637,7 +570,7 @@
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/protector.png">
+                  <img class="imagenAjustada" src="images/productos/cubrecolchon.jpg">
                 </div>
               </div>
             </div><!--TERMINA PROTECTOR DE CAMA-->
@@ -647,80 +580,20 @@
                   <h1 class="txtTProducto">COBERTORES</h1>
                     <div class="cuadroDetails">
                       <p>
-                        LAS FRAZADAS O COBERTORES TÉRMICOS FUNCIONAN COMO COMPLEMENTOS PARA LA CAMA DENTRO DE LA HABITACIÓN, SON LIGEROS, MUY SUAVES, RESISTENTES Y CON GRAN PODER CALORÍFICO, ESTÁN HECHOS DE UNA MEZCLA DE FIBRAS DE TELA POLAR FLANNEL, ACRILÁN Y LANA. DISPONIBLE EN TODAS LAS MEDIDAS Y VARIOS COLORES.
+                        LAS FRAZADAS O COBERTORES TÉRMICOS FUNCIONAN COMO COMPLEMENTOS
+                        PARA LA CAMA DENTRO DE LA HABITACIÓN, SON LIGEROS, MUY SUAVES,
+                        RESISTENTES Y CON GRAN PODER CALORÍFICO, ESTÁN HECHOS DE UNA MEZCLA
+                        DE FIBRAS DE TELA POLAR FLANNEL, ACRILÁN Y LANA. DISPONIBLE EN TODAS
+                        LAS MEDIDAS Y VARIOS COLORES.
                       </p>
                     </div>
                 </div>
                 <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/cobertor.png">
+                  <img class="imagenAjustada" src="images/productos/cobertores.jpg">
                 </div>
               </div>
 
             </div><!--TERMINA COBERTORES-->
-            <div class="filterDiv accor rCama displayProducto showFil"><!--INICIA COBERTORES-->
-              <div class="details">
-                <!--     AGREGAR ACORDION OBERTORES      -->
-                <section class="ac-container">
-                  <div>
-                      <input id="ac-31" name="accordion-1" type="radio">
-                      <label for="ac-31"><h1 class="txtTProducto">COBERTOR</h1></label>
-                      <article class="ac-small tableP">
-                          <table>
-                            <tbody><tr>
-                              <th></th>
-                              <th>200 grs. </th>
-                              <th>300 grs. </th>
-                              <th>400 grs. </th>
-                            </tr>
-                            <tr>
-                              <td>120 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>150 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>180 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>200 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>300 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>400 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                            <tr>
-                              <td>500 HILOS</td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                              <td><img src="images/ok.png" alt="Producto Existente"></td>
-                            </tr>
-                          </tbody></table>
-                      </article>
-                    </div>
-                </section>
-                <!--     TERMINA ACORDION COBERTOR      -->
-              </div>
-            </div>
             <div class="filterDiv rCama displayProducto"><!--INICIA EDREDONES-->
               <div class="details">
                 <div class="imgProdcutoBOX">
@@ -747,9 +620,11 @@
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">MESA Y MANTELERIA</h1>
-                    EN ESTA SECCIÓN PODRÁ ENCONTRAR TODOS LOS PRODUCTOS DE ROPA DE MESA PARA HOTELERÍA,
-                    RESTAURANTES Y SALONES DE EVENTOS. DISPONEMOS DE UNA GRAN VARIEDAD DE MODELOS Y MATERIALES
-                    PARA QUE SU ESTABLECIMIENTO QUEDE PERFECTO EN CUALQUIER EVENTO; UNIENDO ESTILO Y COMODIDAD PARA SUS CLIENTES.
+                  DISEÑADOS CON LOS MEJORES MATERIALES PARA PROPORCIONAR UNA SENSACIÓN DE CONFORT INIGUALABLE,
+                  SON HIPOALERGÉNICOS Y NO GUARDAN OLORES, PUEDEN USARSE TODO EL TIEMPO DEBIDO A LA LIGEREZA DE
+                  SUS COMPONENTES, ES CÁLIDO EN TEMPORADA DE FRIO Y FRESCO EN VERANO. HECHOS EN COLORES LISOS O
+                  ESTAMPADAS 50% ALGODÓN, 50% POLIÉSTER O 100% ALGODÓN o 100% MICROFIBRA TACTO ALGODÓN,
+                  DISPONIBLE EN CUALQUIER MEDIDA QUE SE REQUIERA.
 
                 </div>
               </div>
@@ -845,17 +720,16 @@
           <div class='area-g1'> <img class="imgCuenta" src="images/cuentas/c2.png" alt=""> </div>
           <div class='area-g2'> <img class="imgCuenta" src="images/cuentas/c3.png" alt=""> </div>
           <div class='area-g3'> <img class="imgCuenta" src="images/cuentas/c4.png" alt=""> </div>
+          <!--
           <div class='area-g4'> <img class="imgCuenta" src="images/cuentas/c5.png" alt=""> </div>
           <div class='area-g5'> <img class="imgCuenta" src="images/cuentas/c6.png" alt=""> </div>
           <div class='area-g6'> <img class="imgCuenta" src="images/cuentas/c7.png" alt=""> </div>
           <div class='area-g7'> <img class="imgCuenta" src="images/cuentas/c8.png" alt=""> </div>
           <div class='area-g8'> <img class="imgCuenta" src="images/cuentas/c9.png" alt=""> </div>
+        -->
         </div>
       </div>
-      <div class="contacto">
-        <div id="contact" class="ContMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1902.2770481694465!2d-99.22282307502613!3d19.464689969858895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2025ac5c2123f%3A0x30fbb0389593a335!2sBlvd.+Toluca+22%2C+San+Francisco+Cuautlalpan%2C+53569+Naucalpan+de+Ju%C3%A1rez%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1534277353490" width="99%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+      <div id="contacto" class="contacto">
         <div class="contForm">
           <!--INICIO DEL FORMULARIO-->
           <div class="cForm">
@@ -901,7 +775,7 @@
             <h1 class="tContacto">CONTACTO</h1>
             <div class="contTel">
               <p class="txtTel">
-                TEL: <br>5761 2955 <br> 5357 4089
+                TEL: <br>5761 2955<br>5357 4089<br>5709 4784
               </p>
               <p class="txtCorreo">
                 ventas@mathewshome.com.mx
@@ -1115,12 +989,9 @@ span.psw {
     }
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/effects.js" charset="utf-8"></script>
 
-
-    <!-- 	 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/effects.js" charset="utf-8"></script>
   </body>
 </html>

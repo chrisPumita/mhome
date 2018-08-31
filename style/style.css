@@ -179,6 +179,9 @@ p {
     width: 100%;
     height: 100%;
 }
+.uniqueFont{
+      font-size: 1em !important;
+}
 
 .circulo {
   z-index: 1;
@@ -375,7 +378,7 @@ to {opacity: 1}
 
 .moveDiv{
   display: none;
-  top: 30px;
+  top: 0px;
   position: absolute;
   left: 10%;
 }
@@ -1652,9 +1655,11 @@ table {
     width: max-content;
 }
 .txtTProducto {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    line-height: initial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: initial;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .sTDetails{
   width: 100%;
@@ -1671,7 +1676,7 @@ table {
       width: 100%;
   }
   .txtTel {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 50px;
   }
 
@@ -1802,7 +1807,7 @@ table {
 .containerCuentas {
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 
