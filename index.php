@@ -56,7 +56,7 @@
       </div>
         <h1 class="titleHome">TRABAJAMOS</h1>
         <h2 class="SubTitleHome">A TU MEDIDA</h2>
-        <a class="btnContactar" href="#contact"><button class="btnHome">CONTACTO</button></a>
+        <a class="btnContactar" href="#contacto"><button class="btnHome">CONTACTO</button></a>
       </div>
     </header>
     <section id="section">
@@ -235,23 +235,6 @@
                 </div>
               </div>
             </div><!--TERMINA BATA DE BAÑO-->
-            <div class="filterDiv rBanio displayProducto"><!--INICIA ALFOMBRA DE BAÑO-->
-              <div class="details">
-                <div class="imgProdcutoBOX">
-                  <h1 class="txtTProducto">ALFOMBRA DE BAÑO</h1>
-                    <div class="cuadroDetails">
-                      <p>
-                        LAS ALFOMBRAS DE BAÑO ESTÁN CONFECCIONADAS CON TEJIDOS DE 100% ALGODÓN Y/O POLIÉSTER-ALGODÓN,
-                        APORTANDO A SU ESPACIO CALIDAD Y BIENESTAR. ESTÁN DISPONIBLES EN MÚLTIPLES TAMAÑOS Y GRAMAJES.
-                        CONSÚLTENOS Y LE AYUDAREMOS A ENCONTRAR SU MEJOR OPCIÓN.
-                      </p>
-                    </div>
-                </div>
-                <div class="imgBoxProducto">
-                  <img class="imagenAjustada" src="images/productos/noImage.png">
-                </div>
-              </div>
-            </div><!--TERMINA ALFOMBRA DE BAÑO-->
 <!-- CAMA -->
             <!--TERMINA SECCION DE ROPA DE BAÑO-->
             <div class="filterDiv rCama tProIndv"><!--INICIA TITULO PRODUCTO-->
@@ -387,7 +370,10 @@
                     <div class="cuadroDetails">
                     <!--COMIENZA SABANAS ESPECIFICO HILOS-->
                     <p>
-                      HACEMOS SÁBANAS; SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA Y FESTON BORDADO EN LAS MEDIDAS QUE USTED REQUIERA.
+                      HACEMOS SÁBANAS EN DIFERENTES COMPOSICIONES COMO 50% ALGODÓN Y 50% POLIÉSTER,
+                      100% ALGODÓN, Y 100% MICROFIBRA QUE SE SIENTE COMO 100% ALGODÓN Y ACABADOS
+                      SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA Y FESTÓN BORDADO EN LAS MEDIDAS
+                      QUE USTED REQUIERA. SI QUIERE ALGUNA COMPOSICIÓN ESPECIAL LE FABRICAMOS SU TELA.
                     </p>
                       <!--TERMINA PRODUCTO ESPECIFICO HILOS-->
                     </div>
@@ -467,7 +453,8 @@
                   <h1 class="txtTProducto">SÁBANA INVERNAL</h1>
                     <div class="cuadroDetails">
                       <p>
-                        PARA LA EPOCA INVERNAL CONTAMOS CON SABANAS DE TELA DE FRANELA Y POLAR FLEECE.
+                        ESPERÁNDOLE UNA CAMA CÁLIDA Y SUAVE PARA LA ÉPOCA INVERNAL
+                        CONTAMOS CON SÁBANAS DE TELA DE FRANELA Y POLAR FLEECE.
                       </p>
                     </div>
                 </div>
@@ -659,10 +646,11 @@
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">DECORACION</h1>
-                  CONTAMOS CON UNA GRAN VARIEDAD DE ARTÍCULOS TEXTILES PARA LA DECORACIÓN Y CONFORT DE
-                  SUS ESPACIOS O BIEN COMO PRODUCTOS PROMOCIONALES PARA EL RECONOCIMIENTO Y LEALTAD DE LOS CLIENTES.
-                  PODEMOS REALIZAR CUALQUIER PRODUCTO DE HOSTELERÍA QUE USTED REQUIERA CON LOS ACABADOS Y TEXTURAS
-                  NECESARIAS, HECHOS A LA MEDIDA.
+                  CONTAMOS CON UNA GRAN VARIEDAD DE ARTÍCULOS TEXTILES PARA LA DECORACIÓN
+                  Y CONFORT DE SUS ESPACIOS O BIEN COMO PRODUCTOS PROMOCIONALES PARA
+                  EL RECONOCIMIENTO Y LEALTAD DE LOS CLIENTES, DESTACAN LAS CORTINAS DECORATIVAS,
+                  COJINES CON OLAN, RODAPIES Y PIES DE CAMA, EN CUALQUIER ACABADO,
+                  TELA Y TEXTURA NECESARIA HECHOS A LA MEDIDA.
                </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
