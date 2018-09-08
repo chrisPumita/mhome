@@ -246,8 +246,10 @@
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">ROPA DE CAMA</h1>
-                  TENEMOS TODOS LOS BLANCOS NECESARIOS PARA VESTIR LOS CUARTOS DE HOTEL, SUITES, SPAS, GRAN TURISMO, DIAMANTES, BOUTIQUES, ETC. <br>
-                  OFRECEMOS UNA GRAN VARIEDAD DE TERMINADOS Y TELAS DE CALIDAD INTERNACIONAL CON LA MEJOR SUAVIDAD Y DURABILIDAD.
+                  TENEMOS TODOS LOS BLANCOS NECESARIOS PARA VESTIR LOS CUARTOS DE HOTEL, SUITES,
+                  SPAS, GRAN TURISMO, DIAMANTES, BOUTIQUES, ETC.
+                  OFRECEMOS UNA GRAN VARIEDAD DE TERMINADOS Y TELAS DE CALIDAD
+                  INTERNACIONAL CON LA MEJOR SUAVIDAD Y DURABILIDAD.
                 </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
@@ -471,7 +473,8 @@
                       <p>
                         EL CONJUNTO DE PRODUCTOS PARA VESTIR LA CAMA NO SOLO DEBEN DE LUCIR BIEN,
                         SINO QUE ADEMÁS DEBEN SER CÓMODAS PARA AYUDAR A DORMIR MEJOR, POR LO CUAL
-                        EL TIPO DE FUNDAS QUE ESCOJA SERÁ CLAVE PARA EL DESCANSO. HACEMOS FUNDAS; SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA.
+                        EL TIPO DE FUNDAS QUE ESCOJA SERÁ CLAVE PARA EL DESCANSO. HACEMOS FUNDAS;
+                        SIN BIES Y SIN PIOLA, CON BIES, BIES Y PIOLA.
                       </p>
                     </div>
                 </div>
@@ -587,7 +590,12 @@
                   <h1 class="txtTProducto">EDREDONES</h1>
                     <div class="cuadroDetails">
                       <p>
-                        DISEÑADOS CON LOS MEJORES MATERIALES PARA PROPORCIONAR UNA SENSACIÓN DE CONFORT INIGUALABLE, SON HIPOALERGÉNICOS Y NO GUARDAN OLORES, PUEDEN USARSE TODO EL TIEMPO DEBIDO A LA LIGEREZA DE SUS COMPONENTES, ES CÁLIDO EN TEMPORADA DE FRIO Y FRESCO EN VERANO. HECHOS EN COLORES DE COLORES LISOS O ESTAMPADAS 50% ALGODÓN, 50% POLIÉSTER O 100% ALGODÓN Y MICROFIBRA O 100% POLIÉSTER TACTO ALGODÓN DISPONIBLE EN CUALQUIER MEDIDA QUE SE REQUIERA.
+                        DISEÑADOS CON LOS MEJORES MATERIALES PARA PROPORCIONAR UNA SENSACIÓN DE CONFORT INIGUALABLE,
+                        SON HIPOALERGÉNICOS Y NO GUARDAN OLORES, PUEDEN USARSE TODO EL TIEMPO DEBIDO
+                        A LA LIGEREZA DE SUS COMPONENTES, ES CÁLIDO EN TEMPORADA DE FRIO Y FRESCO EN VERANO.
+                        HECHOS EN COLORES DE COLORES LISOS O ESTAMPADAS 50% ALGODÓN, 50% POLIÉSTER O
+                        100% ALGODÓN Y MICROFIBRA O 100% POLIÉSTER TACTO ALGODÓN DISPONIBLE EN CUALQUIER
+                        MEDIDA QUE SE REQUIERA.
                       </p>
                     </div>
                 </div>
@@ -607,12 +615,9 @@
                   </div>
                 </div>
                 <div class="details opcT"><h1 class="txtTPRo">MESA Y MANTELERIA</h1>
-                  DISEÑADOS CON LOS MEJORES MATERIALES PARA PROPORCIONAR UNA SENSACIÓN DE CONFORT INIGUALABLE,
-                  SON HIPOALERGÉNICOS Y NO GUARDAN OLORES, PUEDEN USARSE TODO EL TIEMPO DEBIDO A LA LIGEREZA DE
-                  SUS COMPONENTES, ES CÁLIDO EN TEMPORADA DE FRIO Y FRESCO EN VERANO. HECHOS EN COLORES LISOS O
-                  ESTAMPADAS 50% ALGODÓN, 50% POLIÉSTER O 100% ALGODÓN o 100% MICROFIBRA TACTO ALGODÓN,
-                  DISPONIBLE EN CUALQUIER MEDIDA QUE SE REQUIERA.
-
+                  OFRECEMOS UN GRAN VARIEDAD DE: MANTELES, SERVILLETAS, BAMBALINAS Y FORROS DE SILLAS,
+                  EN DISTINTOS COLORES Y MEZCLAS. SOLUCIONAMOS DE MANERA ELEGANTE, TODAS SUS NECESIDADES
+                  ESPECÍFICAS, A UN PRECIO ADECUADO SU PRESUPUESTO.
                 </div>
               </div>
             </div><!--TERMINA TITITULO PRODUCTO-->
@@ -623,7 +628,7 @@
                     <div class="cuadroDetails">
                       <p>
                         ESTÁN CONFECCIONADOS CON LA MÁS ALTA CALIDAD, EN DIFERENTES ACABADOS Y DISEÑOS DE
-                        TELAS COMO SON: GRANITA, TAMPA, ALGODONES, EMCAKES Y TERGALES, CONVIRTIÉNDOSE EN LA
+                        TELAS COMO SON: GRANITA, TAMPA, ALGODONES, ENCAJES Y TERGALES, CONVIRTIÉNDOSE EN LA
                         BASE PERFECTA PARA UN BUENA DEGUSTACIÓN EN SU RESTAURANTE, HOTEL O SALÓN DE EVENTOS.
                         PREPARADOS PARA SOPORTAR LOS LAVADOS FRECUENTES Y EL USO DIARIO. ADEMÁS,
                         SON PERSONALIZABLES: PUEDE AÑADIR UN BORDADO Y FESTONES A SU GUSTO.
@@ -780,8 +785,10 @@
             <img class="logoFooter" src="images/logoMATHEWSHOME_B.png" alt="Logo de Mathews Home">
           </div>
           <div class="logosRedes">
-            <img class="logoRed" src="images/facebook.png" alt="Logo de facebook">
-            <img class="logoRed" src="images/twitter.png" alt="Logo de twitter">
+            <a href="https://www.facebook.com/Mathews-Home-1996895120385558/" target="_blank" title="Facebook de Mathews Home">
+            <img class="logoRed" src="images/facebook.png" alt="Logo de facebook"></a>
+            <a href="https://twitter.com/mathewshomemx" target="_blank" title="Twitter de Mathews Home">
+            <img class="logoRed" src="images/twitter.png" alt="Logo de twitter"></a>
             <img class="logoRed" src="images/whatsapp.png" alt="Logo de whatsapp">
             <img class="logoRed" src="images/linkedin.png" alt="Logo de linkedin">
           </div>
@@ -809,7 +816,7 @@
 
           <div class="aviso-content">
             <h1>DESCRIPCIÓN DEL AVISO</h1>
-            <p>En Mathews Home S.A. de C.V. contamos con domicilio en
+            <p>En Corporacion BSD Textiles S.A. de C.V. contamos con domicilio en
               Blvd. Toluca 22 San Francisco Cuautlalpan 53569 Naucalpan de Juárez, Méx.
               es responsable del tratamiento de sus datos personales. Hacemos de su conocimiento que no solicitamos ni hacemos uso de datos personales sensibles.
               Los términos que se utilicen en el presente aviso, tendrán la definición que a los mismos le asigna la Ley Federal de Protección de Datos Personales
@@ -845,9 +852,9 @@
             <p>Los datos personales que recabamos de los usuarios serán tratados en estricto apego a la Ley. En cualquier momento, el usuario
               tendrá el derecho a solicitar el ejercicio de los derechos que le confiere la Ley, para limitar el acceso, la rectificación,
               cancelación u oposición; enviando su solicitud correspondiente por escrito al siguiente correo electrónico: ventas@mathewshome.com.mx
-              o comunicándose vía telefónica al 01 (55) 5761 2955 y 01 (55) 5357 4089, donde con gusto lo atenderemos.</p>
+              o comunicándose vía telefónica al 01 (55) 5761 2955, 01 (55) 5357 4089 y (55) 5709 4784, donde con gusto lo atenderemos.</p>
             <p>Si usted se registra vía telefónica o por algún medio digital y no desea recibir notificaciones y/o avisos sobre
-              nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Mathews Home S.A. de C.V.
+              nosotros o marcas comerciales afiliadas, tendrá que indicarlo durante el proceso a la persona de Corporacion BSD Textiles S.A. de C.V.
               que esté tratando en ese momento, marcándolo en el formulario que este entregando y en todo caso, dirigiéndose con nuestro departamento
               de Atención al Cliente.</p>
           </div>
@@ -864,11 +871,6 @@
           </div>
         </div>
     </div>
-
-
-
-
-
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
